@@ -1,0 +1,201 @@
+/*****	GENERALES	*****/
+	.panel-group{
+		margin-bottom: 1px;
+	}
+	li{
+		margin-left: 3%;
+	}
+	a.tituloUnidad{
+		color: white;
+	}
+
+/*****	UNIDAD1	*****/
+	#headerTituloUnidad1{
+		background-color: rgb(55,96,146);
+	}
+
+	.panel-default1{
+		background-color: rgb(55,96,146);
+		border-color: rgb(55,96,146);
+	}
+	.panel-default1-1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+		margin-left: 4%;
+	}
+	.panel-default1-1-1{
+		background-color: rgb(149,179,215);
+		border-color: rgb(149,179,215);
+		margin-left: 1%;	
+	}
+	.contenido1-1-1-1{
+		background-color: rgb(185,205,229);
+	}
+	#contenedorUnidad1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+	}
+
+/*****	UNIDAD2	*****/
+	#headerTituloUnidad1{
+		background-color: rgb(55,96,146);
+	}
+
+	.panel-default1{
+		background-color: rgb(55,96,146);
+		border-color: rgb(55,96,146);
+	}
+	.panel-default1-1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+		margin-left: 4%;
+	}
+	.panel-default1-1-1{
+		background-color: rgb(149,179,215);
+		border-color: rgb(149,179,215);
+		margin-left: 1%;	
+	}
+	.contenido1-1-1-1{
+		background-color: rgb(185,205,229);
+	}
+	#contenedorUnidad1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+	}
+
+/*****	UNIDAD3	*****/
+	#headerTituloUnidad1{
+		background-color: rgb(55,96,146);
+	}
+
+	.panel-default1{
+		background-color: rgb(55,96,146);
+		border-color: rgb(55,96,146);
+	}
+	.panel-default1-1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+		margin-left: 4%;
+	}
+	.panel-default1-1-1{
+		background-color: rgb(149,179,215);
+		border-color: rgb(149,179,215);
+		margin-left: 1%;	
+	}
+	.contenido1-1-1-1{
+		background-color: rgb(185,205,229);
+	}
+	#contenedorUnidad1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+	}
+
+/*****	UNIDAD4	*****/
+	#headerTituloUnidad1{
+		background-color: rgb(55,96,146);
+	}
+
+	.panel-default1{
+		background-color: rgb(55,96,146);
+		border-color: rgb(55,96,146);
+	}
+	.panel-default1-1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+		margin-left: 4%;
+	}
+	.panel-default1-1-1{
+		background-color: rgb(149,179,215);
+		border-color: rgb(149,179,215);
+		margin-left: 1%;	
+	}
+	.contenido1-1-1-1{
+		background-color: rgb(185,205,229);
+	}
+	#contenedorUnidad1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+	}
+
+/*****	UNIDAD5	*****/
+	#headerTituloUnidad1{
+		background-color: rgb(55,96,146);
+	}
+
+	.panel-default1{
+		background-color: rgb(55,96,146);
+		border-color: rgb(55,96,146);
+	}
+	.panel-default1-1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+		margin-left: 4%;
+	}
+	.panel-default1-1-1{
+		background-color: rgb(149,179,215);
+		border-color: rgb(149,179,215);
+		margin-left: 1%;	
+	}
+	.contenido1-1-1-1{
+		background-color: rgb(185,205,229);
+	}
+	#contenedorUnidad1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+	}
+
+
+/*****	UNIDAD6	*****/
+	#headerTituloUnidad1{
+		background-color: rgb(55,96,146);
+	}
+
+	.panel-default1{
+		background-color: rgb(55,96,146);
+		border-color: rgb(55,96,146);
+	}
+	.panel-default1-1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+		margin-left: 4%;
+	}
+	.panel-default1-1-1{
+		background-color: rgb(149,179,215);
+		border-color: rgb(149,179,215);
+		margin-left: 1%;	
+	}
+	.contenido1-1-1-1{
+		background-color: rgb(185,205,229);
+	}
+	#contenedorUnidad1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+	}
+
+
+/*****	UNIDAD7	*****/
+	#headerTituloUnidad1{
+		background-color: rgb(55,96,146);
+	}
+
+	.panel-default1{
+		background-color: rgb(55,96,146);
+		border-color: rgb(55,96,146);
+	}
+	.panel-default1-1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+		margin-left: 4%;
+	}
+	.panel-default1-1-1{
+		background-color: rgb(149,179,215);
+		border-color: rgb(149,179,215);
+		margin-left: 1%;	
+	}
+	.contenido1-1-1-1{
+		background-color: rgb(185,205,229);
+	}
+	#contenedorUnidad1{
+		background-color: rgb(79,129,189);
+		border-color: rgb(79,129,189);
+	}
