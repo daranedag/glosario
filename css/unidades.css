@@ -1,3 +1,30 @@
+/*
+Verdes
+	*119,147,60
+	*155,187,89
+	*195,214,155
+	*235,241,222
+Morados
+	*96,74,123
+	*128,100,162
+	*179,162,199
+	*204,193,218
+Turquesas
+	*49,133,156
+	*75,172,198
+	*147,205,221
+	*183,222,232
+Naranjos
+	*228,108,10
+	*247,150,70
+	*250,192,144
+	*252,213,181
+Cafes
+	*74,69,42
+	*148,138,84
+	*196,189,151
+	*221,217,195
+*/
 /*****	GENERALES	*****/
 	.panel-group{
 		margin-bottom: 1px;
@@ -9,7 +36,12 @@
 		color: white;
 	}
 
-/*****	UNIDAD1	*****/
+/*****	UNIDAD1
+	Azules:
+		*55,96,146
+		*79,129,189
+		*149,179,215
+		*185,205,229	*****/
 	#headerTituloUnidad1{
 		background-color: rgb(55,96,146);
 	}
@@ -36,31 +68,36 @@
 		border-color: rgb(79,129,189);
 	}
 
-/*****	UNIDAD2	*****/
+/*****	UNIDAD2	
+	Rojos:
+	*149,55,53
+	*192,80,77
+	*217,150,148
+	*230,185,184	*****/
 	#headerTituloUnidad1{
-		background-color: rgb(55,96,146);
+		background-color: rgb(149,55,53);
 	}
 
 	.panel-default1{
-		background-color: rgb(55,96,146);
-		border-color: rgb(55,96,146);
+		background-color: rgb(149,55,53);
+		border-color: rgb(149,55,53);
 	}
 	.panel-default1-1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+		background-color: rgb(192,80,77);
+		border-color: rgb(192,80,77);
 		margin-left: 4%;
 	}
 	.panel-default1-1-1{
-		background-color: rgb(149,179,215);
-		border-color: rgb(149,179,215);
+		background-color: rgb(217,150,148);
+		border-color: rgb(217,150,148);
 		margin-left: 1%;	
 	}
 	.contenido1-1-1-1{
-		background-color: rgb(185,205,229);
+		background-color: rgb(230,185,184);
 	}
 	#contenedorUnidad1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+		background-color: rgb(192,80,77);
+		border-color: rgb(192,80,77);
 	}
 
 /*****	UNIDAD3	*****/
@@ -144,7 +181,6 @@
 		border-color: rgb(79,129,189);
 	}
 
-
 /*****	UNIDAD6	*****/
 	#headerTituloUnidad1{
 		background-color: rgb(55,96,146);
@@ -171,7 +207,6 @@
 		background-color: rgb(79,129,189);
 		border-color: rgb(79,129,189);
 	}
-
 
 /*****	UNIDAD7	*****/
 	#headerTituloUnidad1{
