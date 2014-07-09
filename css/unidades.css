@@ -1,6 +1,6 @@
 /*****	GENERALES	*****/
 	.panel-group{
-		margin-bottom: 1px;
+		margin-bottom: auto;
 	}
 	li{
 		margin-left: 3%;
@@ -28,7 +28,7 @@
 	.panel-default1-1{
 		background-color: rgb(79,129,189);
 		border-color: rgb(79,129,189);
-		margin-left: 4%;
+		margin-left: 3%;
 	}
 	.panel-default1-1-1{
 		background-color: rgb(149,179,215);

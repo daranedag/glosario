@@ -33,8 +33,54 @@
 								</h4>
 							</div>
 							<div id="collapse1-1" class="panel-collapse collapse">
-								<div class="panel-body contenido1-1-1-1">
-									Contenido
+								<div class="panel panel-default1-1">
+									<div class"panel-group" id="contenedorUnidad1">
+										<div class="panel panel-default1-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion1-1" href="#collapse1-1-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse1-1-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido1-1-1-1">
+													Contenido 1.1.1
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default1-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion1-1" href="#collapse1-1-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse1-1-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido1-1-1-1">
+													Contenido 1.1.2
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default1-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion1-1" href="#collapse1-1-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse1-1-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido1-1-1-1">
+													Contenido 1.1.3
+												</div>
+											</div>
+										</div>
+
+									</div>
 								</div>
 							</div>
 						</div>
@@ -47,8 +93,23 @@
 								</h4>
 							</div>
 							<div id="collapse1-2" class="panel-collapse collapse">
-								<div class="panel-body contenido1-1-1-1">
-									Contenido
+								<div class="panel panel-default1-1">
+									<div class"panel-group" id="contenedorUnidad1">
+										<div class="panel panel-default1-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion1-2" href="#collapse1-2-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse1-2-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido1-1-1-1">
+													Contenido 2.1
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
