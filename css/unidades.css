@@ -18,9 +18,11 @@
 	#headerTituloUnidad1{
 		background-color: rgb(55,96,146);
 	}
-
 	.panel-default1{
 		background-color: rgb(55,96,146);
+		border-color: rgb(55,96,146);
+	}
+	.panel-body1{
 		border-color: rgb(55,96,146);
 	}
 	.panel-default1-1{
@@ -53,6 +55,9 @@
 
 	.panel-default2{
 		background-color: rgb(149,55,53);
+		border-color: rgb(149,55,53);
+	}
+	.panel-body2{
 		border-color: rgb(149,55,53);
 	}
 	.panel-default2-1{
@@ -88,6 +93,9 @@
 		background-color: rgb(119,147,60);
 		border-color: rgb(119,147,60);
 	}
+	.panel-body3{
+		border-color: rgb(119,147,60);
+	}
 	.panel-default3-1{
 		background-color: rgb(155,187,89);
 		border-color: rgb(155,187,89);
@@ -118,6 +126,9 @@
 
 	.panel-default4{
 		background-color: rgb(96,74,123);
+		border-color: rgb(96,74,123);
+	}
+	.panel-body4{
 		border-color: rgb(96,74,123);
 	}
 	.panel-default4-1{
@@ -152,6 +163,9 @@
 		background-color: rgb(49,133,156);
 		border-color: rgb(49,133,156);
 	}
+	.panel-body5{
+		border-color: rgb(49,133,156);
+	}
 	.panel-default5-1{
 		background-color: rgb(75,172,1989);
 		border-color: rgb(75,172,198);
@@ -184,6 +198,9 @@
 		background-color: rgb(228,108,10);
 		border-color: rgb(228,108,10);
 	}
+	.panel-body6{
+		border-color: rgb(228,108,10);
+	}
 	.panel-default6-1{
 		background-color: rgb(247,150,70);
 		border-color: rgb(247,150,70);
@@ -214,6 +231,9 @@
 
 	.panel-default7{
 		background-color: rgb(74,69,42);
+		border-color: rgb(74,69,42);
+	}
+	.panel-body7{
 		border-color: rgb(74,69,42);
 	}
 	.panel-default7-1{

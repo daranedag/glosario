@@ -1,8 +1,3 @@
-//funciones generales
-	window.onload = function() {
-			dp.SyntaxHighlighter.HighlightAll("code");
-	}
-
 //funciones iconos UNIDAD 1
 
 	$('#collapse1').on('shown.bs.collapse', function() {
@@ -247,3 +242,8 @@
 	$('#collapse7-4').on('hidden.bs.collapse', function() {
 	    $(".icono7-4").addClass('glyphicon-plus').removeClass('glyphicon-minus');
 	});	
+
+//funciones generales
+	window.onload = function() {
+		dp.SyntaxHighlighter.HighlightAll("code");
+	}
