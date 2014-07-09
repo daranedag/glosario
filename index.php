@@ -12,206 +12,528 @@
 </head>
 <body>
 	<!-- Acordeon Unidad 1 -->
-	<div class="panel-group" id="accordion1">
-		<div class="panel panel-default1">
-			<div class="panel-heading" id="headerTituloUnidad1">
-				<h4 class="panel-title">
-					<a data-toggle="collapse" data-parent="accordion1" href="#collapse1" class="tituloUnidad">
-						<span class="icono1 glyphicon glyphicon-chevron-down"></span> 
-						Unidad 1: Aprende el lenguaje de programación Java, su entorno y capacidades	
-					</a>
-				</h4>
-			</div>
-			<div id="collapse1" class="panel-collapse collapse">
-				<!-- Acordeon Metodo 1.1 -->
-				<div class="panel panel-default1">					
-					<div class="panel-group" id="accordion1-1">
-						<div class="panel panel-default1-1">
+		<div class="panel-group" id="accordion1">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion1" href="#collapse1">
+							Unidad 1
+						</a>
+					</h4>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="accordion1-1" href="#collapse1-1" class="tituloUnidad">
-									<span class="icono1-1 glyphicon glyphicon-plus"> </span>
-										Mostrar información en pantalla
+									<a data-toggle="collapse" data-parent="#accordion1-1" href="#collapse1-1">
+										Mostrar Información en pantalla
 									</a>
 								</h4>
 							</div>
-
 							<div id="collapse1-1" class="panel-collapse collapse">
-								<div class="panel panel-default1-1">
-									<div class="panel-group" id="contenedorUnidad1">
-										<div class="panel panel-default1-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion1-1" href="#collapse1-1-1">
-														<b>Descripción</b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse1-1-1" class="panel-collapse collapse in">
-												<div class="panel-body contenido1-1-1-1">
-													Para mostrar datos en pantalla, se tiene la idea de que la información se "imprime" en la pantalla
-													del dispositivo que está visualizando el programa.<br>
-													Por lo mismo, los métodos utilizados para desplegar información son:
-													<li>
-														<b>println(argumento): </b>
-														Se encarga de mostrar el argumento en pantalla y dejar el cursor en la linea siguiente
-													</li>
-													<li>
-														<b>print(argumento): </b>
-														Se encarga de mostrar el argumento en pantalla dejando el cursor en la misma linea.
-													</li>
-													El argumento dado a la función, puede ser una variable que contiene algún dato primitivo,
-													una cadena o una combinación de ambas.
-												</div>
-											</div>
-										</div>
-
-										<div class="panel panel-default1-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion1-1" href="#collapse1-1-2">
-														<b>Uso</b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse1-1-2" class="panel-collapse collapse in">
-												<div class="panel-body contenido1-1-1-1">
-													Para utilizar éstos métodos no es necesario importar ninguna biblioteca externa.
-													<li>
-														System.out.println(argumento)
-													</li>
-													<li>
-														System.out.print(argumento)
-													</li>
-
-												</div>
-											</div>
-										</div>
-
-										<div class="panel panel-default1-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion1-1" href="#collapse1-1-3">
-														<b>Ejemplo</b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse1-1-3" class="panel-collapse collapse in">
-												<div class="panel-body contenido1-1-1-1">
-													<pre name="code"  class="Java:nocontrols">
-										                public class ejemploPrint{
-										                	public static void main(String[] args){
-										                		System.out.println("Hola a todos");
-										                		System.out.print("Esta linea queda debajo por el println");
-										                		System.out.print(" y esta queda al lado por el uso de print");
-									                		}
-										            				}
-										            </pre>
-										            <h5> Salida </h5>
-										            <textarea readonly cols="100" wrap="hard" >Hola a todos
-Esta linea queda debajo por el println  y esta queda al lado por el uso de print
-										            </textarea>
-												</div>
-											</div>
-										</div>
-									</div>
+								<div class="panel-body">
+									Contenido
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-
-				<!-- Acordeon Metodo 1.2 -->
-				<div class="panel panel-default">
-					<div class="panel-group" id="accordion1-2">
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="accordion1-2" href="#collapse1-2">
-										Metodo 2
+									<a data-toggle="collapse" data-parent="#accordion1-2" href="#collapse1-2">
+										Palabras clave y tipos de datos
 									</a>
 								</h4>
 							</div>
-							<div id="collapse1-2" class="panel-collapse collapse in">
+							<div id="collapse1-2" class="panel-collapse collapse">
 								<div class="panel-body">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-									labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-									nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-									esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-									in culpa qui officia deserunt mollit anim id est laborum.
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion1-3" href="#collapse1-3">
+										Ingreso de datos
+									</a>
+								</h4>
+							</div>
+							<div id="collapse1-3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion1-4" href="#collapse1-4">
+										Operadores
+									</a>
+								</h4>
+							</div>
+							<div id="collapse1-4" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				
 			</div>
 		</div>
-	</div>
+	<!-- Fin Unidad 1 -->
+
 	<!-- Acordeon Unidad 2 -->
-	<div class="panel-group" id="accordion2">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h4 class="panel-title">
-					<a data-toggle="collapse" data-parent="accordion2" href="#collapse2">
-						Unidad 2
-					</a>
-				</h4>
-			</div>
-			<div id="collapse2" class="panel-collapse collapse in">
-				<div class="panel panel-default">
-					<div class="panel-group" id="accordion2">
-						<div class="panel panel-default">
+		<div class="panel-group" id="accordion2">
+			<div class="panel panel-default">
+		    	<div class="panel-heading">
+		      		<h4 class="panel-title">
+		        		<a data-toggle="collapse" data-parent="#accordion2" href="#collapse2">
+		          			Unidad 2
+		        		</a>
+		      		</h4>
+		    	</div>
+		    	<div id="collapse2" class="panel-collapse collapse">
+		      		<div class="panel-body">
+		        		<div class="panel panel-default">
 							<div class="panel-heading">
 								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="accordion2" href="#collapse2-1">
-										Metodo 1
+									<a data-toggle="collapse" data-parent="#accordion2-1" href="#collapse2-1">
+										If - Else
 									</a>
 								</h4>
 							</div>
-							<div id="collapse2-1" class="panel-collapse collapse in">
+							<div id="collapse2-1" class="panel-collapse collapse">
 								<div class="panel-body">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-									labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-									nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-									esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-									in culpa qui officia deserunt mollit anim id est laborum.
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion2-2" href="#collapse2-2">
+										While
+									</a>
+								</h4>
+							</div>
+							<div id="collapse2-2" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion2-3" href="#collapse2-3">
+										For
+									</a>
+								</h4>
+							</div>
+							<div id="collapse2-3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion2-4" href="#collapse2-4">
+										Clase Math
+									</a>
+								</h4>
+							</div>
+							<div id="collapse2-4" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+	    		</div>
+		  	</div>
 		</div>
-	</div>
+	<!-- Fin Unidad 2 -->
+
+	<!-- Acordeon Unidad 3 -->
+		<div class="panel-group" id="accordion3">
+			<div class="panel panel-default">
+		    	<div class="panel-heading">
+		      		<h4 class="panel-title">
+		        		<a data-toggle="collapse" data-parent="#accordion3" href="#collapse3">
+		          			Unidad 3
+		        		</a>
+		      		</h4>
+		    	</div>
+		    	<div id="collapse3" class="panel-collapse collapse">
+		      		<div class="panel-body">
+		        		<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion3-1" href="#collapse3-1">
+										If - Else
+									</a>
+								</h4>
+							</div>
+							<div id="collapse3-1" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion3-2" href="#collapse3-2">
+										While
+									</a>
+								</h4>
+							</div>
+							<div id="collapse3-2" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion3-3" href="#collapse3-3">
+										For
+									</a>
+								</h4>
+							</div>
+							<div id="collapse3-3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion3-4" href="#collapse3-4">
+										Clase Math
+									</a>
+								</h4>
+							</div>
+							<div id="collapse3-4" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+					</div>
+	    		</div>
+		  	</div>
+		</div>
+	<!-- Fin Unidad 3 -->
+
+	<!-- Acordeon Unidad 4 -->
+		<div class="panel-group" id="accordion4">
+			<div class="panel panel-default">
+		    	<div class="panel-heading">
+		      		<h4 class="panel-title">
+		        		<a data-toggle="collapse" data-parent="#accordion4" href="#collapse4">
+		          			Unidad 4
+		        		</a>
+		      		</h4>
+		    	</div>
+		    	<div id="collapse4" class="panel-collapse collapse">
+		      		<div class="panel-body">
+		        		<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion4-1" href="#collapse4-1">
+										If - Else
+									</a>
+								</h4>
+							</div>
+							<div id="collapse4-1" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion4-2" href="#collapse4-2">
+										While
+									</a>
+								</h4>
+							</div>
+							<div id="collapse4-2" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion4-3" href="#collapse4-3">
+										For
+									</a>
+								</h4>
+							</div>
+							<div id="collapse4-3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion4-4" href="#collapse4-4">
+										Clase Math
+									</a>
+								</h4>
+							</div>
+							<div id="collapse4-4" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+					</div>
+	    		</div>
+		  	</div>
+		</div>
+	<!-- Fin Unidad 4 -->
+
+	<!-- Acordeon Unidad 5 -->
+		<div class="panel-group" id="accordion5">
+			<div class="panel panel-default">
+		    	<div class="panel-heading">
+		      		<h4 class="panel-title">
+		        		<a data-toggle="collapse" data-parent="#accordion5" href="#collapse5">
+		          			Unidad 5
+		        		</a>
+		      		</h4>
+		    	</div>
+		    	<div id="collapse5" class="panel-collapse collapse">
+		      		<div class="panel-body">
+		        		<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion5-1" href="#collapse5-1">
+										If - Else
+									</a>
+								</h4>
+							</div>
+							<div id="collapse5-1" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion5-2" href="#collapse5-2">
+										While
+									</a>
+								</h4>
+							</div>
+							<div id="collapse5-2" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion5-3" href="#collapse5-3">
+										For
+									</a>
+								</h4>
+							</div>
+							<div id="collapse5-3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion5-4" href="#collapse5-4">
+										Clase Math
+									</a>
+								</h4>
+							</div>
+							<div id="collapse5-4" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+					</div>
+	    		</div>
+		  	</div>
+		</div>
+	<!-- Fin Unidad 5 -->
+
+	<!-- Acordeon Unidad 6 -->
+		<div class="panel-group" id="accordion3">
+			<div class="panel panel-default">
+		    	<div class="panel-heading">
+		      		<h4 class="panel-title">
+		        		<a data-toggle="collapse" data-parent="#accordion6" href="#collapse6">
+		          			Unidad 6
+		        		</a>
+		      		</h4>
+		    	</div>
+		    	<div id="collapse6" class="panel-collapse collapse">
+		      		<div class="panel-body">
+		        		<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion6-1" href="#collapse6-1">
+										If - Else
+									</a>
+								</h4>
+							</div>
+							<div id="collapse6-1" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion6-2" href="#collapse6-2">
+										While
+									</a>
+								</h4>
+							</div>
+							<div id="collapse6-2" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion6-3" href="#collapse6-3">
+										For
+									</a>
+								</h4>
+							</div>
+							<div id="collapse6-3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion6-4" href="#collapse6-4">
+										Clase Math
+									</a>
+								</h4>
+							</div>
+							<div id="collapse6-4" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+					</div>
+	    		</div>
+		  	</div>
+		</div>
+	<!-- Fin Unidad 6 -->
+
+	<!-- Acordeon Unidad 7 -->
+		<div class="panel-group" id="accordion7">
+			<div class="panel panel-default">
+		    	<div class="panel-heading">
+		      		<h4 class="panel-title">
+		        		<a data-toggle="collapse" data-parent="#accordion7" href="#collapse7">
+		          			Unidad 7
+		        		</a>
+		      		</h4>
+		    	</div>
+		    	<div id="collapse7" class="panel-collapse collapse">
+		      		<div class="panel-body">
+		        		<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion7-1" href="#collapse7-1">
+										If - Else
+									</a>
+								</h4>
+							</div>
+							<div id="collapse7-1" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion7-2" href="#collapse7-2">
+										While
+									</a>
+								</h4>
+							</div>
+							<div id="collapse7-2" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion7-3" href="#collapse7-3">
+										For
+									</a>
+								</h4>
+							</div>
+							<div id="collapse7-3" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion7-4" href="#collapse7-4">
+										Clase Math
+									</a>
+								</h4>
+							</div>
+							<div id="collapse7-4" class="panel-collapse collapse">
+								<div class="panel-body">
+									Contenido
+								</div>
+							</div>
+						</div>
+					</div>
+	    		</div>
+		  	</div>
+		</div>
+	<!-- Fin Unidad 7 -->
 
 
+	<script src="js/glosario.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script language="javascript" src="js/shCore.js"></script>
     <script language="javascript" src="js/shBrushJava.js"></script>
-    <script type="text/javascript">
-    	window.onload = function() {
-      		dp.SyntaxHighlighter.HighlightAll("code");
-    	}
-	</script>
-	<script type="text/javascript">
-	    $('#collapse1').on('shown.bs.collapse', function() {
-	    	$(".icono1").addClass('glyphicon-chevron-up').removeClass('glyphicon-chevron-down');
-	  	});
-	    $('#collapse1').on('hidden.bs.collapse', function() {
-		    $(".icono1").addClass('glyphicon-chevron-down').removeClass('glyphicon-chevron-up');
-		});
-  	</script>
-  	<script type="text/javascript">
-  		$('#collapse1-1').on('shown.bs.collapse', function() {
-	    	$(".icono1-1").addClass('glyphicon-minus').removeClass('glyphicon-plus');
-	  	});
-	    $('#collapse1-1').on('hidden.bs.collapse', function() {
-		    $(".icono1-1").addClass('glyphicon-plus').removeClass('glyphicon-minus');
-		});
-		
-	</script>
 </body>

@@ -1,30 +1,3 @@
-/*
-Verdes
-	*119,147,60
-	*155,187,89
-	*195,214,155
-	*235,241,222
-Morados
-	*96,74,123
-	*128,100,162
-	*179,162,199
-	*204,193,218
-Turquesas
-	*49,133,156
-	*75,172,198
-	*147,205,221
-	*183,222,232
-Naranjos
-	*228,108,10
-	*247,150,70
-	*250,192,144
-	*252,213,181
-Cafes
-	*74,69,42
-	*148,138,84
-	*196,189,151
-	*221,217,195
-*/
 /*****	GENERALES	*****/
 	.panel-group{
 		margin-bottom: 1px;
@@ -74,163 +47,190 @@ Cafes
 	*192,80,77
 	*217,150,148
 	*230,185,184	*****/
-	#headerTituloUnidad1{
+	#headerTituloUnidad2{
 		background-color: rgb(149,55,53);
 	}
 
-	.panel-default1{
+	.panel-default2{
 		background-color: rgb(149,55,53);
 		border-color: rgb(149,55,53);
 	}
-	.panel-default1-1{
+	.panel-default2-1{
 		background-color: rgb(192,80,77);
 		border-color: rgb(192,80,77);
 		margin-left: 4%;
 	}
-	.panel-default1-1-1{
+	.panel-default2-1-1{
 		background-color: rgb(217,150,148);
 		border-color: rgb(217,150,148);
 		margin-left: 1%;	
 	}
-	.contenido1-1-1-1{
+	.contenido2-1-1-1{
 		background-color: rgb(230,185,184);
 	}
-	#contenedorUnidad1{
+	#contenedorUnidad2{
 		background-color: rgb(192,80,77);
 		border-color: rgb(192,80,77);
 	}
 
-/*****	UNIDAD3	*****/
-	#headerTituloUnidad1{
-		background-color: rgb(55,96,146);
+/*****	UNIDAD3	
+	Verdes
+	*119,147,60
+	*155,187,89
+	*195,214,155
+	*235,241,222	*****/
+
+	#headerTituloUnidad3{
+		background-color: rgb(119,147,60);
 	}
 
-	.panel-default1{
-		background-color: rgb(55,96,146);
-		border-color: rgb(55,96,146);
+	.panel-default3{
+		background-color: rgb(119,147,60);
+		border-color: rgb(119,147,60);
 	}
-	.panel-default1-1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+	.panel-default3-1{
+		background-color: rgb(155,187,89);
+		border-color: rgb(155,187,89);
 		margin-left: 4%;
 	}
-	.panel-default1-1-1{
-		background-color: rgb(149,179,215);
-		border-color: rgb(149,179,215);
+	.panel-default3-1-1{
+		background-color: rgb(195,214,155);
+		border-color: rgb(195,214,155);
 		margin-left: 1%;	
 	}
-	.contenido1-1-1-1{
-		background-color: rgb(185,205,229);
+	.contenido3-1-1-1{
+		background-color: rgb(235,241,222);
 	}
-	#contenedorUnidad1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
-	}
-
-/*****	UNIDAD4	*****/
-	#headerTituloUnidad1{
-		background-color: rgb(55,96,146);
+	#contenedorUnidad3{
+		background-color: rgb(155,187,89);
+		border-color: rgb(155,187,89);
 	}
 
-	.panel-default1{
-		background-color: rgb(55,96,146);
-		border-color: rgb(55,96,146);
+/*****	UNIDAD4
+	Morados
+	*96,74,123
+	*128,100,162
+	*179,162,199
+	*204,193,218	*****/
+	#headerTituloUnidad4{
+		background-color: rgb(96,74,123);
 	}
-	.panel-default1-1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+
+	.panel-default4{
+		background-color: rgb(96,74,123);
+		border-color: rgb(96,74,123);
+	}
+	.panel-default4-1{
+		background-color: rgb(128,100,162);
+		border-color: rgb(128,100,162);
 		margin-left: 4%;
 	}
-	.panel-default1-1-1{
-		background-color: rgb(149,179,215);
-		border-color: rgb(149,179,215);
+	#contenedorUnidad4{
+		background-color: rgb(128,100,162);
+		border-color: rgb(128,100,162);
+	}
+	.panel-default4-1-1{
+		background-color: rgb(179,162,199);
+		border-color: rgb(179,162,199);
 		margin-left: 1%;	
 	}
-	.contenido1-1-1-1{
-		background-color: rgb(185,205,229);
+	.contenido4-1-1-1{
+		background-color: rgb(204,193,218);
 	}
-	#contenedorUnidad1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+	
+/*****	UNIDAD5	
+	Turquesas
+	*49,133,156
+	*75,172,198
+	*147,205,221
+	*183,222,232	*****/
+	#headerTituloUnidad5{
+		background-color: rgb(49,133,156);
 	}
 
-/*****	UNIDAD5	*****/
-	#headerTituloUnidad1{
-		background-color: rgb(55,96,146);
+	.panel-default5{
+		background-color: rgb(49,133,156);
+		border-color: rgb(49,133,156);
 	}
-
-	.panel-default1{
-		background-color: rgb(55,96,146);
-		border-color: rgb(55,96,146);
-	}
-	.panel-default1-1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+	.panel-default5-1{
+		background-color: rgb(75,172,1989);
+		border-color: rgb(75,172,198);
 		margin-left: 4%;
 	}
-	.panel-default1-1-1{
-		background-color: rgb(149,179,215);
-		border-color: rgb(149,179,215);
+	#contenedorUnidad5{
+		background-color: rgb(75,172,198);
+		border-color: rgb(75,172,198);
+	}
+	.panel-default5-1-1{
+		background-color: rgb(147,205,221);
+		border-color: rgb(147,205,221);
 		margin-left: 1%;	
 	}
-	.contenido1-1-1-1{
-		background-color: rgb(185,205,229);
+	.contenido5-1-1-1{
+		background-color: rgb(183,222,232);
 	}
-	#contenedorUnidad1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+	
+/*****	UNIDAD6
+	Naranjos
+	*228,108,10
+	*247,150,70
+	*250,192,144
+	*252,213,181	*****/
+	#headerTituloUnidad6{
+		background-color: rgb(228,108,10);
 	}
 
-/*****	UNIDAD6	*****/
-	#headerTituloUnidad1{
-		background-color: rgb(55,96,146);
+	.panel-default6{
+		background-color: rgb(228,108,10);
+		border-color: rgb(228,108,10);
 	}
-
-	.panel-default1{
-		background-color: rgb(55,96,146);
-		border-color: rgb(55,96,146);
-	}
-	.panel-default1-1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+	.panel-default6-1{
+		background-color: rgb(247,150,70);
+		border-color: rgb(247,150,70);
 		margin-left: 4%;
 	}
-	.panel-default1-1-1{
-		background-color: rgb(149,179,215);
-		border-color: rgb(149,179,215);
+	#contenedorUnidad6{
+		background-color: rgb(247,150,70);
+		border-color: rgb(247,150,70);
+	}
+	.panel-default6-1-1{
+		background-color: rgb(250,192,144);
+		border-color: rgb(250,192,144);
 		margin-left: 1%;	
 	}
-	.contenido1-1-1-1{
-		background-color: rgb(185,205,229);
+	.contenido6-1-1-1{
+		background-color: rgb(252,213,181);
 	}
-	#contenedorUnidad1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+	
+/*****	UNIDAD7
+	Cafes
+	*74,69,42
+	*148,138,84
+	*196,189,151
+	*221,217,195	*****/
+	#headerTituloUnidad7{
+		background-color: rgb(74,69,42);
 	}
 
-/*****	UNIDAD7	*****/
-	#headerTituloUnidad1{
-		background-color: rgb(55,96,146);
+	.panel-default7{
+		background-color: rgb(74,69,42);
+		border-color: rgb(74,69,42);
 	}
-
-	.panel-default1{
-		background-color: rgb(55,96,146);
-		border-color: rgb(55,96,146);
-	}
-	.panel-default1-1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
+	.panel-default7-1{
+		background-color: rgb(148,138,84);
+		border-color: rgb(148,138,84);
 		margin-left: 4%;
 	}
-	.panel-default1-1-1{
-		background-color: rgb(149,179,215);
-		border-color: rgb(149,179,215);
+	#contenedorUnidad7{
+		background-color: rgb(148,138,84);
+		border-color: rgb(148,138,84);
+	}
+	.panel-default7-1-1{
+		background-color: rgb(196,189,151);
+		border-color: rgb(196,189,151);
 		margin-left: 1%;	
 	}
-	.contenido1-1-1-1{
-		background-color: rgb(185,205,229);
+	.contenido7-1-1-1{
+		background-color: rgb(221,217,195);
 	}
-	#contenedorUnidad1{
-		background-color: rgb(79,129,189);
-		border-color: rgb(79,129,189);
-	}
+	
