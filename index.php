@@ -175,7 +175,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion3-1" href="#collapse3-1">
-										If - Else
+										Caracteres especiales
 									</a>
 								</h4>
 							</div>
@@ -189,7 +189,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion3-2" href="#collapse3-2">
-										While
+										Casting
 									</a>
 								</h4>
 							</div>
@@ -203,7 +203,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion3-3" href="#collapse3-3">
-										For
+										Strings
 									</a>
 								</h4>
 							</div>
@@ -217,7 +217,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion3-4" href="#collapse3-4">
-										Clase Math
+										Integer y Character
 									</a>
 								</h4>
 							</div>
@@ -249,7 +249,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion4-1" href="#collapse4-1">
-										If - Else
+										Datos estructurados
 									</a>
 								</h4>
 							</div>
@@ -263,7 +263,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion4-2" href="#collapse4-2">
-										While
+										length
 									</a>
 								</h4>
 							</div>
@@ -277,7 +277,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion4-3" href="#collapse4-3">
-										For
+										arrayCopy
 									</a>
 								</h4>
 							</div>
@@ -291,7 +291,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion4-4" href="#collapse4-4">
-										Clase Math
+										Arreglos n-dimensionales
 									</a>
 								</h4>
 							</div>
@@ -323,7 +323,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion5-1" href="#collapse5-1">
-										If - Else
+										Try - Catch
 									</a>
 								</h4>
 							</div>
@@ -337,7 +337,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion5-2" href="#collapse5-2">
-										While
+										Throw new Exception
 									</a>
 								</h4>
 							</div>
@@ -351,7 +351,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion5-3" href="#collapse5-3">
-										For
+										getMessage()
 									</a>
 								</h4>
 							</div>
@@ -361,20 +361,22 @@
 								</div>
 							</div>
 						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion5-4" href="#collapse5-4">
-										Clase Math
-									</a>
-								</h4>
-							</div>
-							<div id="collapse5-4" class="panel-collapse collapse">
-								<div class="panel-body">
-									Contenido
+						<!-- Borrar Quizá!!!
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion5-4" href="#collapse5-4">
+											Clase Math
+										</a>
+									</h4>
 								</div>
-							</div>
-						</div>
+								<div id="collapse5-4" class="panel-collapse collapse">
+									<div class="panel-body">
+										Contenido
+									</div>
+								</div>
+							</div> 
+						-->
 					</div>
 	    		</div>
 		  	</div>
@@ -397,7 +399,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion6-1" href="#collapse6-1">
-										If - Else
+										java.io IOException
 									</a>
 								</h4>
 							</div>
@@ -411,7 +413,9 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion6-2" href="#collapse6-2">
-										While
+										File y Scanner para archivos
+										hasNextLine()
+										close()
 									</a>
 								</h4>
 							</div>
@@ -425,7 +429,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion6-3" href="#collapse6-3">
-										For
+										PrintWriter, println, print, close
 									</a>
 								</h4>
 							</div>
@@ -435,6 +439,7 @@
 								</div>
 							</div>
 						</div>
+						<!-- Borrar Quizá!!!
 						<div class="panel panel-default">
 							<div class="panel-heading">
 								<h4 class="panel-title">
@@ -449,6 +454,7 @@
 								</div>
 							</div>
 						</div>
+						-->
 					</div>
 	    		</div>
 		  	</div>
@@ -471,7 +477,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion7-1" href="#collapse7-1">
-										If - Else
+										Recursividad 1
 									</a>
 								</h4>
 							</div>
@@ -485,7 +491,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion7-2" href="#collapse7-2">
-										While
+										Recursividad 2
 									</a>
 								</h4>
 							</div>
@@ -499,7 +505,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion7-3" href="#collapse7-3">
-										For
+										Recursividad 3
 									</a>
 								</h4>
 							</div>
@@ -513,7 +519,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion7-4" href="#collapse7-4">
-										Clase Math
+										Recursividad 4
 									</a>
 								</h4>
 							</div>
