@@ -45,7 +45,19 @@
 											</div>
 											<div id="collapse1-1-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.1.1
+													Para mostrar datos en pantalla, se tiene la idea de que la información se "imprime" en la pantalla
+													del dispositivo que está visualizando el programa.<br>
+													Por lo mismo, los métodos utilizados para desplegar información son:
+													<li>
+														<b>println(argumento): </b>
+														Se encarga de mostrar el argumento en pantalla y dejar el cursor en la linea siguiente
+													</li>
+													<li>
+														<b>print(argumento): </b>
+														Se encarga de mostrar el argumento en pantalla dejando el cursor en la misma linea.
+													</li>
+													El argumento dado a la función, puede ser una variable que contiene algún dato primitivo,
+													una cadena o una combinación de ambas.
 												</div>
 											</div>
 										</div>
@@ -60,7 +72,13 @@
 											</div>
 											<div id="collapse1-1-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.1.2
+													Para utilizar éstos métodos no es necesario importar ninguna biblioteca externa.
+													<li>
+														System.out.println(argumento)
+													</li>
+													<li>
+														System.out.print(argumento)
+													</li>
 												</div>
 											</div>
 										</div>
@@ -75,7 +93,19 @@
 											</div>
 											<div id="collapse1-1-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.1.3
+													<pre name="code"  class="Java:nocontrols">
+										                public class ejemploPrint{
+										                	public static void main(String[] args){
+										                		System.out.println("Hola a todos");
+										                		System.out.print("Esta linea queda debajo por el println");
+										                		System.out.print(" y esta queda al lado por el uso de print");
+									                		}
+										            				}
+										            </pre>
+										            <h5> Salida </h5>
+										            <textarea readonly cols="100" wrap="hard" >Hola a todos
+Esta linea queda debajo por el println  y esta queda al lado por el uso de print
+										            </textarea>
 												</div>
 											</div>
 										</div>
