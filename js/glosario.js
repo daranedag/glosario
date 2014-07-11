@@ -246,4 +246,6 @@
 //funciones generales
 	window.onload = function() {
 		dp.SyntaxHighlighter.HighlightAll("code");
+
 	}
+	

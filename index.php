@@ -103,8 +103,9 @@
 										            				}
 										            </pre>
 										            <h5> Salida </h5>
-										            <textarea readonly cols="100" wrap="hard" >Hola a todos
-Esta linea queda debajo por el println  y esta queda al lado por el uso de print
+										            <textarea readonly cols="100" wrap="off" style="width: 100%;">
+										            	Hola a todos
+														Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 										            </textarea>
 												</div>
 											</div>
@@ -1296,8 +1297,53 @@ Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 								</h4>
 							</div>
 							<div id="collapse6-1" class="panel-collapse collapse">
-								<div class="panel-body contenido6-1-1-1">
-									Contenido
+								<div class="panel panel-default6-1">
+									<div class"panel-group" id="contenedorUnidad6">
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-1" href="#collapse6-1-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-1-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.1.1
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-1" href="#collapse6-1-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-1-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.1.2
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-1" href="#collapse6-1-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-1-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.1.3
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1310,8 +1356,53 @@ Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 								</h4>
 							</div>
 							<div id="collapse6-2" class="panel-collapse collapse">
-								<div class="panel-body contenido6-1-1-1">
-									Contenido
+								<div class="panel panel-default6-1">
+									<div class"panel-group" id="contenedorUnidad6">
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-2" href="#collapse6-2-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-2-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.2.1
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-2" href="#collapse6-2-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-2-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.2.2
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-2" href="#collapse6-2-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-2-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.2.3
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1324,8 +1415,53 @@ Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 								</h4>
 							</div>
 							<div id="collapse6-3" class="panel-collapse collapse">
-								<div class="panel-body contenido6-1-1-1">
-									Contenido
+								<div class="panel panel-default6-1">
+									<div class"panel-group" id="contenedorUnidad6">
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-3" href="#collapse6-3-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-3-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.3.1
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-3" href="#collapse6-3-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-3-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.3.2
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default6-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion6-3" href="#collapse6-3-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse6-3-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido6-1-1-1">
+													Contenido 6.3.3
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1373,8 +1509,53 @@ Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 								</h4>
 							</div>
 							<div id="collapse7-1" class="panel-collapse collapse">
-								<div class="panel-body contenido7-1-1-1">
-									Contenido
+								<div class="panel panel-default7-1">
+									<div class"panel-group" id="contenedorUnidad7">
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-1" href="#collapse7-1-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-1-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.1.1
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-1" href="#collapse7-1-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-1-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.1.2
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-1" href="#collapse7-1-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-1-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.1.3
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1387,8 +1568,53 @@ Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 								</h4>
 							</div>
 							<div id="collapse7-2" class="panel-collapse collapse">
-								<div class="panel-body contenido7-1-1-1">
-									Contenido
+								<div class="panel panel-default7-1">
+									<div class"panel-group" id="contenedorUnidad7">
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-2" href="#collapse7-2-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-2-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.2.1
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-2" href="#collapse7-2-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-2-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.2.2
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-2" href="#collapse7-2-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-2-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.2.3
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1401,8 +1627,53 @@ Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 								</h4>
 							</div>
 							<div id="collapse7-3" class="panel-collapse collapse">
-								<div class="panel-body contenido7-1-1-1">
-									Contenido
+								<div class="panel panel-default7-1">
+									<div class"panel-group" id="contenedorUnidad7">
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-3" href="#collapse7-3-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-3-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.3.1
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-3" href="#collapse7-3-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-3-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.3.2
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-3" href="#collapse7-3-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-3-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.3.3
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1415,8 +1686,53 @@ Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 								</h4>
 							</div>
 							<div id="collapse7-4" class="panel-collapse collapse">
-								<div class="panel-body contenido7-1-1-1">
-									Contenido
+								<div class="panel panel-default7-1">
+									<div class"panel-group" id="contenedorUnidad7">
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-4" href="#collapse7-4-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-4-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.4.1
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-4" href="#collapse7-4-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-4-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.4.2
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default7-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion7-4" href="#collapse7-4-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse7-4-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido7-1-1-1">
+													Contenido 7.4.3
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

@@ -1,6 +1,9 @@
 /*****	GENERALES	*****/
+	body{
+		position: relative;
+	}
 	.panel-group{
-		margin-bottom: auto;
+		margin-bottom: 0.4%;
 	}
 	li{
 		margin-left: 3%;
@@ -21,9 +24,11 @@
 	.panel-default1{
 		background-color: rgb(55,96,146);
 		border-color: rgb(55,96,146);
+
 	}
 	.panel-body1{
 		border-color: rgb(55,96,146);
+		margin-bottom:1%;
 	}
 	.panel-default1-1{
 		background-color: rgb(79,129,189);
@@ -59,6 +64,7 @@
 	}
 	.panel-body2{
 		border-color: rgb(149,55,53);
+		margin-bottom:1%;
 	}
 	.panel-default2-1{
 		background-color: rgb(192,80,77);
@@ -95,6 +101,7 @@
 	}
 	.panel-body3{
 		border-color: rgb(119,147,60);
+		margin-bottom:1%;
 	}
 	.panel-default3-1{
 		background-color: rgb(155,187,89);
@@ -130,6 +137,7 @@
 	}
 	.panel-body4{
 		border-color: rgb(96,74,123);
+		margin-bottom: 1%;
 	}
 	.panel-default4-1{
 		background-color: rgb(128,100,162);
@@ -165,6 +173,7 @@
 	}
 	.panel-body5{
 		border-color: rgb(49,133,156);
+		margin-bottom: 1%;
 	}
 	.panel-default5-1{
 		background-color: rgb(75,172,198);
@@ -200,6 +209,7 @@
 	}
 	.panel-body6{
 		border-color: rgb(228,108,10);
+		margin-bottom: 1%;
 	}
 	.panel-default6-1{
 		background-color: rgb(247,150,70);
@@ -235,6 +245,7 @@
 	}
 	.panel-body7{
 		border-color: rgb(74,69,42);
+		margin-bottom:1%;
 	}
 	.panel-default7-1{
 		background-color: rgb(148,138,84);
