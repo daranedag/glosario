@@ -136,7 +136,135 @@
 											</div>
 											<div id="collapse1-2-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.2.1
+													Para comenzar a programar en Java, existen, como se podrán haber dado cuenta del
+													primer programa realizado que hay algunas palabras clave (en colores) que son necesarias
+													para que funcione el programa. Y aquí están explicadas brevemente cada una de esas palabras:
+													<table class="table table-hover1-2-1">
+														<th>
+															Palabra clave
+														</th>
+														<th>
+															Descripción
+														</th>
+														<tbody>
+														<tr>
+															<td style="color: blue;">
+																public
+															</td>
+															<td>
+																El encontrarse escrita la palabra <i>public</i> implica que es accesible de diferentes clases y programas
+															</td>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																static
+															</td>
+															<td>
+																Esta palabra hace que el intercambio de información esté habilitado
+															</td>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																void
+															</td>
+															<td>
+																No habrá un valor de retorno al programa que lo invocó
+															</td>
+														</tr>
+														<tr>
+															<td>
+																main
+															</td>
+															<td>
+																<a id="tooltip1-2-1" href="#" data-toggle="tooltip" title="Esto se explicará en la Unidad 2"><b>Método</b></a> principal necesario para ejecutar cualquier programa
+															</td>
+															<div class="tooltip top" role="tooltip">
+															  	<div class="tooltip-arrow"></div>
+															  	<div class="tooltip-inner">
+															    	Esto se explicará en la Unidad 2
+															  	</div>-
+															</div>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																class
+															</td>
+															<td>
+																Establece una <i>Clase</i> nueva para ser utilizada
+															</td>
+														</tr>
+														<th>
+															Tipo de dato
+														</th>
+														<th>
+															Descripción
+														</th>
+														<tr>
+															<td style="color: blue;">
+																byte
+															</td>
+															<td>
+																Tipo de dato numérico entero que almacena 1 byte de memoria (8 bits)
+															</td>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																short
+															</td>
+															<td>
+																Tipo de dato numérico entero que almacena 2 bytes de memoria (16 bits)
+															</td>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																int
+															</td>
+															<td>
+																Tipo de dato numérico entero que almacena 4 bytes de memoria (32 bits)
+															</td>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																long
+															</td>
+															<td>
+																Tipo de dato numérico entero que almacena 8 bytes de memoria (64 bits)
+															</td>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																boolean
+															</td>
+															<td>
+																Tipo de dato lógico con valores verdadeor y falso
+															</td>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																char
+															</td>
+															<td>
+																Tipo de dato que almacena un caracter (16 bits)
+															</td>
+														</tr>
+														<tr>
+															<td style="color: blue;">
+																float
+															</td>
+															<td>
+																Tipo de dato numérico con punto flotante que lamacena 2 bytes de memoria (16 bits)
+															</td>
+														</tr>														
+														<tr>
+															<td style="color: blue;">
+																double
+															</td>
+															<td>
+																Tipo de dato numérico con punto flotante que lamacena 8 bytes de memoria (64 bits)
+															</td>
+														</tr>
+														</tbody>
+													</table>
 												</div>
 											</div>
 										</div>

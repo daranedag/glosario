@@ -248,4 +248,4 @@
 		dp.SyntaxHighlighter.HighlightAll("code");
 
 	}
-	
+	$('#tooltip1-2-1').tooltip('show');
