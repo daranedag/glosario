@@ -378,7 +378,7 @@
 																		nextBoolean()
 																	</td>
 																	<td>
-																		Acepta un valor lógico: <b>true</b> / <b>false</b>
+																		Acepta un valor lógico: <em style="color:blue">true</em> / <em style="color:blue">false</em>
 																	</td>
 																</tr>
 																<tr>
@@ -484,6 +484,11 @@
 															}
 														}
 													</pre>
+													<h5> Salida </h5>
+													<p>
+														Ingrese un numero: 5<br>
+														El numero ingresado fue: 5
+													</p>
 												</div>
 											</div>
 										</div>
@@ -512,7 +517,203 @@
 											</div>
 											<div id="collapse1-4-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.4.1
+													Los operadores son símbolos o caracteres reservados para realizar operaciones:
+													<table class="table table-hover1-2-1">
+														<th style="text-align: center">
+															Tipo
+														</th>														
+														<th style="text-align: center">
+															Operación
+														</th>
+														<th style="text-align: center">
+															Símbolo
+														</th>
+														<th style="text-align: center">
+															Descripción
+														</th>
+														<tbody>
+															<tr>
+																<td rowspan="6" style="text-align: center; vertical-align: middle">
+																	Aritméticos
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;"> 
+																	Adición
+																</td>
+																<td style="text-align: center;">
+																	+
+																</td>
+																<td style="text-align: center;">
+																	Suma dos elementos
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;" >
+																	Sustracción
+																</td>
+																<td style="text-align: center;">
+																	-
+																</td>
+																<td style="text-align: center;">
+																	Resta dos elementos
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Producto
+																</td>
+																<td style="text-align: center;">
+																	*
+																</td>
+																<td style="text-align: center;">
+																	Multiplica dos elementos
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Cuociente
+																</td>
+																<td style="text-align: center;">
+																	/
+																</td>
+																<td style="text-align: center;">
+																	Divide dos elementos
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Módulo
+																</td>
+																<td style="text-align: center;">
+																	%
+																</td>
+																<td style="text-align: center;">
+																	Calcula el resto de la división entera entre dos numeros
+																</td>
+															</tr>
+															<tr>
+																<td rowspan="7" style="text-align: center; vertical-align: middle">
+																	Comparativos
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Mayor que
+																</td>
+																<td style="text-align: center;">
+																	>
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Menor que
+																</td>
+																<td style="text-align: center;">
+																	<
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Mayor o igual que
+																</td>
+																<td style="text-align: center;">
+																	>=
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Menor o igual que
+																</td>
+																<td style="text-align: center;">
+																	<=
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Distinto que
+																</td>
+																<td style="text-align: center;">
+																	!=
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Igual que
+																</td>
+																<td style="text-align: center;">
+																	==
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td rowspan="5" style="text-align: center; vertical-align: middle">
+																	Lógicos
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Y (AND)
+																</td>
+																<td style="text-align: center;">
+																	&&
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	O (OR)
+																</td>
+																<td style="text-align: center;">
+																	||
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Negación (NOT)
+																</td>
+																<td style="text-align: center;">
+																	!
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Ó exclusivo (XOR)
+																</td>
+																<td style="text-align: center;">
+																	^
+																</td>
+																<td style="text-align: center;">
+																	Algo
+																</td>
+															</tr>
+														</tbody>
+													</table>
 												</div>
 											</div>
 										</div>
