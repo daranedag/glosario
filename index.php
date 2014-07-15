@@ -252,7 +252,7 @@
 																float
 															</td>
 															<td>
-																Tipo de dato numérico con punto flotante que lamacena 2 bytes de memoria (16 bits)
+																Tipo de dato numérico con punto flotante que almacena 2 bytes de memoria (16 bits)
 															</td>
 														</tr>														
 														<tr>
@@ -260,7 +260,7 @@
 																double
 															</td>
 															<td>
-																Tipo de dato numérico con punto flotante que lamacena 8 bytes de memoria (64 bits)
+																Tipo de dato numérico con punto flotante que almacena 8 bytes de memoria (64 bits)
 															</td>
 														</tr>
 														</tbody>
@@ -279,11 +279,11 @@
 											</div>
 											<div id="collapse1-2-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.2.2
+													Ver sección Ingreso de datos
 												</div>
 											</div>
 										</div>
-
+									<!--
 										<div class="panel panel-default1-1-1">
 											<div class="panel-heading">
 												<h4 class="panel-title">
@@ -298,6 +298,7 @@
 												</div>
 											</div>
 										</div>
+									-->
 									</div>
 								</div>
 							</div>
@@ -323,7 +324,99 @@
 											</div>
 											<div id="collapse1-3-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.3.1
+													<p>
+														Para poder ingresar datos a través del teclado cuando ejecutamos un programa en Java, se utilizará la clase <i>Scanner</i>,
+														y para ello es necesario importarla desde la biblioteca de utilidades de Java que se llama <i>util</i>.
+														Luego se debe crear una instancia de la clase <i>Scanner</i> y asignarle el valor correspondiente para que acepte los datos desde el 
+														teclado como entrada utilizando <i>System.in</i>
+													</p>
+													<p>
+														Además, al momento de pedir un dato, se debe conocer qué tipo de dato se va a pedir al usuario. Como se vio en el punto anterior
+														se pueden pedir diferentes tipos de datos como los siguientes:
+														<table class="table table-hover1-2-1">
+															<th>
+																Instrucción
+															</th>
+															<th>
+																Descripción
+															</th>
+															<tbody>
+																<tr>
+																	<td style="color: black;">
+																		nextByte()
+																	</td>
+																	<td>
+																		Acepta un numero entero de tamaño de un byte
+																	</td>
+																</tr>
+																<tr>
+																	<td style="color: black;">
+																		nextShort()
+																	</td>
+																	<td>
+																		Acepta un numero entero de hasta dos bytes
+																	</td>
+																</tr>
+																<tr>
+																	<td style="color: black;">
+																		nextInt()
+																	</td>
+																	<td>
+																		Acepta un numero entero de hasta cuatro bytes. Este es el más usado
+																	</td>
+																</tr>
+																<tr>
+																	<td style="color: black;">
+																		nextLong()
+																	</td>
+																	<td>
+																		Acepta un numero entero de hasta ocho bytes.
+																	</td>																	
+																</tr>
+																<tr>
+																	<td style="color: black;">
+																		nextBoolean()
+																	</td>
+																	<td>
+																		Acepta un valor lógico: <b>true</b> / <b>false</b>
+																	</td>
+																</tr>
+																<tr>
+																	<td style="color: black;">
+																		nextFloat()
+																	</td>
+																	<td>
+																		Acepta un numero con punto flotanto de hasta dos bytes
+																	</td>
+																</tr>
+																<tr>
+																	<td style="color: black;">
+																		nextDouble()
+																	</td>
+																	<td>
+																		Acepta un numero con punto flotanto de hasta ocho bytes
+																	</td>
+																</tr>
+
+																<tr>
+																	<td style="color: black;">
+																		next()
+																	</td>
+																	<td>
+																		Acepta una cadena de entrada hasta el primer separador encontrado
+																	</td>
+																</tr>
+																<tr>
+																	<td style="color: black;">
+																		nextLine()
+																	</td>
+																	<td>
+																		Acepta una cadena de entrada hasta el salto de linea producido al presionar la tecla Intro
+																	</td>
+																</tr>															
+															</tbody>
+														</table>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -338,7 +431,33 @@
 											</div>
 											<div id="collapse1-3-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.3.2
+													<p>
+														Para importar la biblioteca mencionada:
+														<li> 
+															<b>import java.util.Scanner;</b>              Se importa solo la Biblioteca Scanner
+														</li>
+														o bien
+														<li> 
+															<b>import java.util.*; </b>           Se importa toda la Biblioteca de java.util
+														</li>
+													</p>
+													<p>
+														Para crear la instancia de la clase Scanner y asignar el valor correspondiente para recibir datos desde el teclado:
+														<li> 
+															<b>Scanner keyboard = new Scanner(System.in)</b> 
+														</li>
+													</p>
+													<p>
+														Para pedir un dato al usuario (número entero para este caso):
+														<li>
+															<b> keyboard.nextInt() </b> 
+														</li>
+														Para pedir una cadena de caracteres o <i>String</i> al usuario:
+														<li>
+															<b> keyboard.nextLine() </b>
+														</li>
+														Según la necesidad se pueden utilizar los otros metodos vistos en la descripción.
+													</p>
 												</div>
 											</div>
 										</div>
@@ -353,7 +472,18 @@
 											</div>
 											<div id="collapse1-3-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.3.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.Scanner;   //importar biblioteca
+														public class ejemploEntrada{  // nueva clase publica llamada ejemploEntrada
+															public static void main(String[] args){	//metodo principal para ejecutar el programa
+																//crear instancia de la clase Scanner llamada keyboard en este caso (se puede utilizar otro nombre a gusto)
+																Scanner keyboard = new Scanner(System.in);
+																System.out.print("Ingrese un numero: ");
+																int num = keyboard.nextInt();   //ingreso del numero que se guarda en la variable num de tipo entero
+																System.out.println("El numero ingresado fue: "+num);
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
