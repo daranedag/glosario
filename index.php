@@ -102,11 +102,17 @@
 									                		}
 										            				}
 										            </pre>
-										            <h5> Salida </h5>
+										            <h4> Salida </h4>
+										            <code>
+										            	Hola a todos <br>
+														Esta linea queda debajo por el println  y esta queda al lado por el uso de print
+										            </code>
+										            <!--
 										            <textarea readonly cols="100" wrap="off" style="width: 100%;">
 										            	Hola a todos
 														Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 										            </textarea>
+										            -->
 												</div>
 											</div>
 										</div>
@@ -484,11 +490,28 @@
 															}
 														}
 													</pre>
-													<h5> Salida </h5>
-													<p>
-														Ingrese un numero: 5<br>
+													<h4> Salida </h4>
+													<code>
+														Ingrese un numero:
+													</code>
+													<td>
+														<a id="tooltip1-3-1" href="#" data-toggle="tooltip" title="Este fue el número ingresado" style="color: black">
+															5<br>
+														</a>
+													</td>
+													<div class="tooltip top" role="tooltip">
+													  	<div class="tooltip-arrow"></div>
+													  	<div class="tooltip-inner">
+													    	Este fue el número ingresado
+													  	</div>
+													</div>
+													<code>
+														El numero ingresado fue:
+													</code>5
+													<!--<textarea readonly cols="100" wrap="off" style="width: 100%;">
+														Ingrese un numero: 5
 														El numero ingresado fue: 5
-													</p>
+													</textarea>-->
 												</div>
 											</div>
 										</div>
@@ -605,7 +628,7 @@
 																	>
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si el elemento de la izquierda es mayor
 																</td>
 															</tr>
 															<tr>
@@ -616,7 +639,7 @@
 																	<
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si el elemento de la izquierda es menor
 																</td>
 															</tr>
 															<tr>
@@ -627,7 +650,7 @@
 																	>=
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si el elemento de la izquierda es mayor o igual
 																</td>
 															</tr>
 															<tr>
@@ -638,7 +661,7 @@
 																	<=
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si el elemento de la izquierda es menor o igual
 																</td>
 															</tr>
 															<tr>
@@ -649,7 +672,7 @@
 																	!=
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si el elemento de la izquierda es distinto
 																</td>
 															</tr>
 															<tr>
@@ -660,7 +683,7 @@
 																	==
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si el elemento de la izquierda es igual
 																</td>
 															</tr>
 															<tr>
@@ -676,7 +699,7 @@
 																	&&
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si la primera y la segunda expresión lógica se cumplen
 																</td>
 															</tr>
 															<tr>
@@ -687,7 +710,7 @@
 																	||
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si la primera o la segunda expresión lógica se cumple
 																</td>
 															</tr>
 															<tr>
@@ -698,7 +721,7 @@
 																	!
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Niega una expresión lógica
 																</td>
 															</tr>
 															<tr>
@@ -709,7 +732,7 @@
 																	^
 																</td>
 																<td style="text-align: center;">
-																	Algo
+																	Verdadero si se cumple una de las expresiones lógicas pero no ambas ni ninguna.
 																</td>
 															</tr>
 														</tbody>

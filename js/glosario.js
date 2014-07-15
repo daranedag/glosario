@@ -249,3 +249,4 @@
 
 	}
 	$('#tooltip1-2-1').tooltip('show');
+	$('#tooltip1-3-1').tooltip('show');
