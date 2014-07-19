@@ -508,10 +508,6 @@
 													<code>
 														El numero ingresado fue:
 													</code>5
-													<!--<textarea readonly cols="100" wrap="off" style="width: 100%;">
-														Ingrese un numero: 5
-														El numero ingresado fue: 5
-													</textarea>-->
 												</div>
 											</div>
 										</div>
@@ -814,7 +810,11 @@
 											</div>
 											<div id="collapse2-1-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.1.1
+													Estructura de control basado en una toma de decisiones simple, es decir, si se cumple
+													la condicion dada, se realiza un conjunto de instrucciones. 
+													En caso de que no ocurra tal condición, se realiza otro conjunto de instrucciones.
+													Para recordar, se utilizará un diagrama de flujo estructurado con esta estructura de control:<br>
+													<img src="img/if-else.png" class="img-responsive" alt="Responsive image" style="text-align: center; display: block;">
 												</div>
 											</div>
 										</div>
@@ -829,7 +829,23 @@
 											</div>
 											<div id="collapse2-1-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.1.2
+													<p>Para utilizar esta estructura de control se debe expresar la condición como una expresión booleana que tome
+													los valores true o false según se necesite:</p>
+													<p>
+														if (condicion){<br>
+															instruccion1;<br>
+															instruccion2;<br>
+															...<br>
+															instruccionM;<br>
+														}<br>
+														else{<br>
+															instrucciónA;<br>
+															instrucciónB;<br>
+															...<br>
+															instrucciónZ;<br>
+														}
+													</p>
+
 												</div>
 											</div>
 										</div>
