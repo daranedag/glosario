@@ -1788,7 +1788,21 @@
 											</div>
 											<div id="collapse3-2-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.2.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.*;
+														public class ejemploCasteo{
+															public static void main(String args[]){
+																Random aleatorio = new Random();   //generar numeros aleatorios
+																int numero = 67 + aleatorio.nextInt(94);	// genera numero aleatorio entre 67 y 94 para obtener un caracter de mayusculas
+																char oculto = (char)numero;		// casting explicito para transformar el numero en un caracter
+																System.out.println(oculto);		//mostrar caracter
+
+																char otro = oculto;		//toma el numero anterior
+																int numero2 = otro;		//casting implicito
+																System.out.println(numero2);	//mostrar numero
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -1800,7 +1814,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion3-3" href="#collapse3-3" class="tituloUnidad">
-										<b>Strings</b>
+										<b>Métodos de la clase String</b>
 									</a>
 								</h4>
 							</div>
