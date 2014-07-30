@@ -188,7 +188,7 @@
 															  	<div class="tooltip-arrow"></div>
 															  	<div class="tooltip-inner">
 															    	Esto se explicará en la Unidad 2
-															  	</div>-
+															  	</div>
 															</div>
 														</tr>
 														<tr>
@@ -550,6 +550,9 @@
 														<th style="text-align: center">
 															Descripción
 														</th>
+														<th style="text-align: center">
+															Uso
+														</th>
 														<tbody>
 															<tr>
 																<td rowspan="6" style="text-align: center; vertical-align: middle">
@@ -566,6 +569,9 @@
 																<td style="text-align: center;">
 																	Suma dos elementos
 																</td>
+																<td style="text-align: center;">
+																	a + b
+																</td>
 															</tr>
 															<tr>
 																<td style="text-align: center;" >
@@ -576,6 +582,9 @@
 																</td>
 																<td style="text-align: center;">
 																	Resta dos elementos
+																</td>
+																<td style="text-align: center;">
+																	a - b
 																</td>
 															</tr>
 															<tr>
@@ -588,6 +597,9 @@
 																<td style="text-align: center;">
 																	Multiplica dos elementos
 																</td>
+																<td style="text-align: center;">
+																	a * b
+																</td>
 															</tr>
 															<tr>
 																<td style="text-align: center;">
@@ -599,6 +611,9 @@
 																<td style="text-align: center;">
 																	Divide dos elementos
 																</td>
+																<td style="text-align: center;">
+																	a / b
+																</td>
 															</tr>
 															<tr>
 																<td style="text-align: center;">
@@ -609,6 +624,9 @@
 																</td>
 																<td style="text-align: center;">
 																	Calcula el resto de la división entera entre dos numeros
+																</td>
+																<td style="text-align: center;">
+																	a % b
 																</td>
 															</tr>
 															<tr>
@@ -626,6 +644,9 @@
 																<td style="text-align: center;">
 																	Verdadero si el elemento de la izquierda es mayor
 																</td>
+																<td style="text-align: center;">
+																	a > b
+																</td>
 															</tr>
 															<tr>
 																<td style="text-align: center;">
@@ -636,6 +657,9 @@
 																</td>
 																<td style="text-align: center;">
 																	Verdadero si el elemento de la izquierda es menor
+																</td>
+																<td style="text-align: center;">
+																	a < b
 																</td>
 															</tr>
 															<tr>
@@ -648,6 +672,9 @@
 																<td style="text-align: center;">
 																	Verdadero si el elemento de la izquierda es mayor o igual
 																</td>
+																<td style="text-align: center;">
+																	a >= b
+																</td>
 															</tr>
 															<tr>
 																<td style="text-align: center;">
@@ -658,6 +685,9 @@
 																</td>
 																<td style="text-align: center;">
 																	Verdadero si el elemento de la izquierda es menor o igual
+																</td>
+																<td style="text-align: center;">
+																	a <= b
 																</td>
 															</tr>
 															<tr>
@@ -670,6 +700,9 @@
 																<td style="text-align: center;">
 																	Verdadero si el elemento de la izquierda es distinto
 																</td>
+																<td style="text-align: center;">
+																	a != b
+																</td>
 															</tr>
 															<tr>
 																<td style="text-align: center;">
@@ -680,6 +713,9 @@
 																</td>
 																<td style="text-align: center;">
 																	Verdadero si el elemento de la izquierda es igual
+																</td>
+																<td style="text-align: center;">
+																	a == b
 																</td>
 															</tr>
 															<tr>
@@ -697,6 +733,9 @@
 																<td style="text-align: center;">
 																	Verdadero si la primera y la segunda expresión lógica se cumplen
 																</td>
+																<td style="text-align: center;">
+																	Condición A && Condición B
+																</td>
 															</tr>
 															<tr>
 																<td style="text-align: center;">
@@ -707,6 +746,9 @@
 																</td>
 																<td style="text-align: center;">
 																	Verdadero si la primera o la segunda expresión lógica se cumple
+																</td>
+																<td style="text-align: center;">
+																	Condición A || Condición B
 																</td>
 															</tr>
 															<tr>
@@ -719,6 +761,9 @@
 																<td style="text-align: center;">
 																	Niega una expresión lógica
 																</td>
+																<td style="text-align: center;">
+																	!Condición A
+																</td>
 															</tr>
 															<tr>
 																<td style="text-align: center;">
@@ -730,13 +775,16 @@
 																<td style="text-align: center;">
 																	Verdadero si se cumple una de las expresiones lógicas pero no ambas ni ninguna.
 																</td>
+																<td style="text-align: center;">
+																	Condición A ^ Condición B
+																</td>
 															</tr>
 														</tbody>
 													</table>
 												</div>
 											</div>
 										</div>
-
+										<!--
 										<div class="panel panel-default1-1-1">
 											<div class="panel-heading">
 												<h4 class="panel-title">
@@ -766,7 +814,8 @@
 												</div>
 											</div>
 										</div>
-									</div>
+										-->
+									</div>									
 								</div>
 							</div>
 						</div>
@@ -813,8 +862,10 @@
 													Estructura de control basado en una toma de decisiones simple, es decir, si se cumple
 													la condicion dada, se realiza un conjunto de instrucciones. 
 													En caso de que no ocurra tal condición, se realiza otro conjunto de instrucciones.
-													Para recordar, se utilizará un diagrama de flujo estructurado con esta estructura de control:<br>
-													<img src="img/if-else.png" class="img-responsive" alt="Responsive image" style="text-align: center; display: block;">
+													Para recordar, se utilizará el siguiente diagrama de flujo estructurado:<br>
+													<div align="center">
+														<img src="img/if-else.png" class="img-responsive" alt="Responsive image">
+													</div>
 												</div>
 											</div>
 										</div>
@@ -830,22 +881,24 @@
 											<div id="collapse2-1-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
 													<p>Para utilizar esta estructura de control se debe expresar la condición como una expresión booleana que tome
-													los valores true o false según se necesite:</p>
-													<p>
+													los valores true o false según se necesite:<br>													
 														if (condicion){<br>
+														<p class="indented">
 															instruccion1;<br>
 															instruccion2;<br>
 															...<br>
 															instruccionM;<br>
+														</p>
 														}<br>
 														else{<br>
+														<p class="indented">
 															instrucciónA;<br>
 															instrucciónB;<br>
 															...<br>
 															instrucciónZ;<br>
+														</p>
 														}
 													</p>
-
 												</div>
 											</div>
 										</div>
@@ -860,7 +913,25 @@
 											</div>
 											<div id="collapse2-1-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.1.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.Scanner;   //importar biblioteca
+														public class ejemploIf{  // nueva clase publica llamada ejemploIf
+															public static void main(String[] args){	//metodo principal para ejecutar el programa
+																//crear instancia de la clase Scanner llamada keyboard en este caso (se puede utilizar otro nombre a gusto)
+																Scanner keyboard = new Scanner(System.in);
+																System.out.print("Ingrese un numero: ");
+																int num = keyboard.nextInt();   //ingreso del numero que se guarda en la variable num de tipo entero
+																if(num % 2 == 0){  	// condición se encuentra entre parentesis
+																	// Instrucciones a realizar si se cumple la condición
+																	System.out.println("El numero ingresado es PAR");	
+																}
+																else{		//negación de la condición del if
+																	// Instrucciones a realizar de no cumplirse la condición
+																	System.out.println("El numero ingresado es IMPAR");
+																}																
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -889,7 +960,14 @@
 											</div>
 											<div id="collapse2-2-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.2.1
+													Estructura de control iterativa, es decir, cíclica; que realizará las instrucciones dadas
+													mientras la condición dada se cumpla.
+													Dependiendo de la condición dada pueden darse el caso de iteraciones infinitas, por lo que 
+													se sugiere revisar las condiciones lógicas.
+													Para recordar, se utilizará el siguiente diagrama de flujo estructurado:
+													<div align="center">
+														<img src="img/while.png" class="img-responsive" alt="Responsive image">
+													</div>													
 												</div>
 											</div>
 										</div>
@@ -904,7 +982,17 @@
 											</div>
 											<div id="collapse2-2-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.2.2
+													<p>Para utilizar esta estructura de control se debe expresar la condición como una expresión booleana que tome
+													los valores true o false según se necesite: <br>
+													while (condicion){
+													<p class="indented">
+														instruccion1;<br>
+														instruccion2;<br>
+														...<br>
+														instruccionM;<br>
+													</p>													
+													}
+													</p>												
 												</div>
 											</div>
 										</div>
@@ -919,7 +1007,24 @@
 											</div>
 											<div id="collapse2-2-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.2.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.Scanner;   //importar biblioteca
+														public class ejemploWhile{  // nueva clase publica llamada ejemploWhile
+															public static void main(String[] args){	//metodo principal para ejecutar el programa
+																//crear instancia de la clase Scanner llamada keyboard en este caso (se puede utilizar otro nombre a gusto)
+																Scanner keyboard = new Scanner(System.in);
+																System.out.print("Ingrese un numero: ");
+																int num = keyboard.nextInt();   //ingreso del numero que se guarda en la variable num de tipo entero
+																//validación para que el numero ingresado por el usuario sea positivo, es decir, rechaza los negativos
+																while(num <= 0){
+																	//instrucciones que se ejecutan mientras el numero ingresado por el usuario sea 0 o negativo
+																	System.out.print("Error...el numero debe ser positivo\n Ingrese un numero: ");
+																	num = keyboard.nextInt();
+																}
+																System.out.println("Numero ingresado correctamente");														
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -948,7 +1053,12 @@
 											</div>
 											<div id="collapse2-3-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.3.1
+													Estructura de control repetitiva, que a diferencia de <i>while</i> se conoce la cantidad de veces a repetir
+													las instrucciones dadas.<br>
+													Para recordar, se utilizará el siguiente diagrama de flujo estructurado:
+													<div align="center">
+														<img src="img/for.png" class="img-responsive" alt="Responsive image">
+													</div>
 												</div>
 											</div>
 										</div>
@@ -963,7 +1073,17 @@
 											</div>
 											<div id="collapse2-3-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.3.2
+													<p>Para utilizar esta estructura de control se deben expresar las variables numéricas asociadas a valores conocidos
+													y además esos valores deben ir de acuerdo al salto especificado:<br>													
+														for(int i=0; i< 10; i++){<br>
+														<p class="indented">
+															instruccion1;<br>
+															instruccion2;<br>
+															...<br>
+															instruccionM;<br>
+														</p>
+														}
+													</p>													
 												</div>
 											</div>
 										</div>
@@ -978,7 +1098,21 @@
 											</div>
 											<div id="collapse2-3-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.3.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.Scanner;   //importar biblioteca
+														public class ejemploFor{  // nueva clase publica llamada ejemploFor
+															public static void main(String[] args){	//metodo principal para ejecutar el programa
+																//crear instancia de la clase Scanner llamada keyboard en este caso (se puede utilizar otro nombre a gusto)
+																Scanner keyboard = new Scanner(System.in);
+																System.out.print("Ingrese un numero: ");
+																int num = keyboard.nextInt();   //ingreso del numero que se guarda en la variable num de tipo entero
+																for(int i=0; i < num; i++){
+																	//instrucciones que se ejecutaran las veces que diga el usuario al ingresar el numero
+																	System.out.println("INFO 023-Programación");
+																}															
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -1007,7 +1141,10 @@
 											</div>
 											<div id="collapse2-4-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.4.1
+													Como bien indica su nombre en inglés, ésta clase contiene todos los métodos asociados a funciones
+													matemáticas que no están consideradas como básicas. Por ejemplo: coseno, raiz cuadrada, tangente, etc.
+													Para utilizar esta clase es necesario llamar cada función con el comando:<br>
+													<b>Math</b>.funcion
 												</div>
 											</div>
 										</div>
@@ -1022,11 +1159,229 @@
 											</div>
 											<div id="collapse2-4-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.4.2
+													A continuación se detallan los métodos más utilizados de la clase Math, su descripción y un pequeño ejemplo de uso
+													<table class="table table-hover2-4-1">
+														<th style="text-align: center;">
+															Función
+														</th>
+														<th style="text-align: center;">
+															Instrucción
+														</th>
+														<th style="text-align: center;">
+															Descripción
+														</th>
+														<th style="text-align: center;">
+															Uso y Ejemplo
+														</th>
+														<tbody>
+															<tr>
+																<td style="text-align: center;">
+																	Número Pi
+																</td>
+																<td style="text-align: center;">
+																	Math.PI
+																</td>
+																<td style="text-align: center;">
+																	Valor de tipo <i>double</i> que es más cercano que cualquier otro al valor de pi, <br>la relación de la circunferencia de un círculo con su diámetro
+																</td>
+																<td style="text-align: center;">
+																	double r = 5.3;<br>
+																	double perimetro = 2 * Math.PI * r;
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Número e
+																</td>
+																<td style="text-align: center;">
+																	Math.E
+																</td>
+																<td style="text-align: center;">
+																	Valor de tipo <i>double</i> que es más cercano que cualquier otro al valor de <i>e</i>, <br>la base de los logaritmos naturales
+																</td>
+																<td style="text-align: center;">
+																	double resultado = 4 * Math.E;
+																</td>
+															</tr>																													
+															<tr>
+																<td style="text-align: center;">
+																	Valor absoluto
+																</td>
+																<td style="text-align: center;">
+																	Math.abs(<a id="tooltip2-4-1" href="#" data-toggle="tooltip" title="Puede ser de tipo double, int, long o float"><b>a</b></a>)
+																</td>
+																<div class="tooltip top" role="tooltip">
+																  	<div class="tooltip-arrow"></div>
+																  	<div class="tooltip-inner">
+																    	Puede ser de tipo double, int, long o float
+																  	</div>
+																</div>
+																</td>
+																<td style="text-align: center;">
+																	Retorna el valor absoluto del argumento dado según el tipo especificado.
+																</td>
+																<td style="text-align: center;">
+																	int x = -3;<br>
+																	int positivo = Math.abs(x);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Raíz cúbica
+																</td>
+																<td style="text-align: center;">
+																	Math.cbrt(double a)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna la raíz cúbica del número especificado como double.
+																</td>
+																<td style="text-align: center;">
+																	double resultado = Math.cbrt(8);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Coseno
+																</td>
+																<td style="text-align: center;">
+																	Math.cos(double a)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna el coseno trigonométrico de un ángulo en <b>radianes</b>.
+																</td>
+																<td style="text-align: center;">
+																	double resultado = Math.cos(Math.PI/2);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	<i>e</i> elevado a 
+																</td>
+																<td style="text-align: center;">
+																	Math.exp(double a)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna el número de Euler elevado a la potencia del valor double especificado.
+																</td>
+																<td style="text-align: center;">
+																	double x = 0.5;<br>
+																	double resultado = Math.exp(x);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Logaritmo natural
+																</td>
+																<td style="text-align: center;">
+																	Math.log(double a)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna el logaritmo natural (base <i>e</i>) de un valor tipo double
+																</td>
+																<td style="text-align: center;">
+																	double logaritmo = Math.log(3.1415);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Logaritmo en base 10
+																</td>
+																<td style="text-align: center;">
+																	Math.log10(double a)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna el logaritmo en base 10 de un valor tipo double.
+																</td>
+																<td style="text-align: center;">
+																	double resultado = Math.log10(100);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Potencia
+																</td>
+																<td style="text-align: center;">
+																	Math.pow(double a, double b)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna el valor del primer argumento elevado a la potencia del segundo argumento
+																</td>
+																<td style="text-align: center;">
+																	double potencia = Math.pow(2,10);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Aleatorio
+																</td>
+																<td style="text-align: center;">
+																	Math.random()
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna un valor de tipo double de signo positivo, mayor o igual a 0.0 y menor que 1.0
+																</td>
+																<td style="text-align: center;">
+																	double aleatorio = Math.random();
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Seno
+																</td>
+																<td style="text-align: center;">
+																	Math.sin(double a)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna el seno trigonométrico de un ángulo en <b>radianes</b>.
+																</td>
+																<td style="text-align: center;">
+																	double resultado = Math.sin(720);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Raíz cuadrada
+																</td>
+																<td style="text-align: center;">
+																	Math.sqrt(double a)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna el valor positivo y correctamente redondeado de la raíz cuadrada de un valor de tipo double
+																</td>
+																<td style="text-align: center;">
+																	double raiz = Math.sqrt(100);
+																</td>
+															</tr>
+															<tr>
+																<td style="text-align: center;">
+																	Tangente
+																</td>
+																<td style="text-align: center;">
+																	Math.tan(double a)
+																</td>																
+																</td>
+																<td style="text-align: center;">
+																	Retorna la tangente trigonométrica de un ángulo en <b>radianes</b>.
+																</td>
+																<td style="text-align: center;">
+																	double resultado = Math.tan(90);
+																</td>
+															</tr>
+														</tbody>
+													</table>
 												</div>
 											</div>
 										</div>
-
+										<!--
 										<div class="panel panel-default2-1-1">
 											<div class="panel-heading">
 												<h4 class="panel-title">
@@ -1038,6 +1393,139 @@
 											<div id="collapse2-4-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido2-1-1-1">
 													Contenido 2.4.3
+												</div>
+											</div>
+										</div>
+										-->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default2-1">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion2-5" href="#collapse2-5" class="tituloUnidad">
+										<b>Clase Random</b>
+									</a>
+								</h4>
+							</div>
+							<div id="collapse2-5" class="panel-collapse collapse">
+								<div class="panel panel-default2-1">
+									<div class"panel-group" id="contenedorUnidad2">
+										<div class="panel panel-default2-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion2-5" href="#collapse2-5-1">
+														<b> Descripción </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse2-5-1" class="panel-collapse collapse in">
+												<div class="panel-body contenido2-1-1-1">
+													Tal como índica su nombre inglés, ésta clase se utiliza para la generación de números aleatorios de manera más
+													directa y fácil.
+													Para utilizarla se debe importar la biblioteca correspondiente:<br>
+													<b>import java.util.Random;</b> y luego crear una instancia de la clase Random de la siguiente manera:<br>
+													<b> Random variable = new Random();</b> <br>
+													Posteriormente usar alguno de los métodos listados y descritos en la siguiente sección.
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default2-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion2-1" href="#collapse2-5-2">
+														<b> Uso </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse2-5-2" class="panel-collapse collapse in">
+												<div class="panel-body contenido2-1-1-1">
+													<table class="table table-hover2-4-1">														
+														<th style="text-align: center;">
+															Instrucción
+														</th>
+														<th style="text-align: center;">
+															Descripción
+														</th>														
+														<tbody>
+															<tr>
+																<td style="text-align: center;">
+																	variable.nextInt();
+																</td>
+																<td style="text-align: center;">
+																	Retorna un valor entero pseudoaleatorio, uniformemente distribuido de la secuencia del generador de números aleatorios.
+																</td>
+															</tr>
+																<td style="text-align: center;">
+																	variable.nextInt(int n)
+																</td>
+																<td style="text-align: center;">
+																	Retorna un valor entero pseudoaleatorio, uniformemente distribuido entre 0 (inclusive) y el valor especificado (exclusive).
+																</td>
+															</tr>
+																<td style="text-align: center;">
+																	variable.nextDouble()
+																</td>
+																<td style="text-align: center;">
+																	Retorna un valor double pseudoaleatorio, uniformemente distribuido entre 0.0 y 1.0
+																</td>
+															</tr>
+																<td style="text-align: center;">
+																	variable.nextFloat()
+																</td>
+																<td style="text-align: center;">
+																	Retorna un valor float pseudoaleatorio, uniformemente distribuido entre 0.0 y 1.0
+																</td>
+															</tr>
+																<td style="text-align: center;">
+																	variable.nextLong()
+																</td>
+																<td style="text-align: center;">
+																	Retorna un valor long pseudoaleatorio, uniformemente distribuido de la secuencia del generador de números aleatorios.
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default2-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion2-1" href="#collapse2-5-3">
+														<b> Ejemplo </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse2-5-3" class="panel-collapse collapse in">
+												<div class="panel-body contenido2-1-1-1">
+													Para el ejemplo se utilizará la función nextInt(int n) ya que se puede hacer interactivo para el usuario
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.Scanner;   //importar biblioteca
+														import java.util.Random;
+														public class ejemploRandom{  // nueva clase publica llamada ejemploRandom
+															public static void main(String[] args){	//metodo principal para ejecutar el programa
+																//crear instancia de la clase Scanner llamada keyboard en este caso (se puede utilizar otro nombre a gusto)
+																Scanner keyboard = new Scanner(System.in);
+																Random variable = new Random();
+																System.out.print("Ingrese un numero: ");
+																int num = keyboard.nextInt();   //ingreso del numero que se guarda en la variable num de tipo entero
+																int oculto = variable.nextInt(num);
+																System.out.println("Solo tienes una oportunidad para adivinar el número secreto...");
+																System.out.print("Ingresa un numero: ");
+																num = keyboard.nextInt();
+																if(num == oculto){
+																	System.out.println("Ganaste!!");
+																}
+																else{
+																	System.out.println("Perdiste!!");
+																}
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>

@@ -11,6 +11,10 @@
 	a.tituloUnidad{
 		color: white;
 	}
+	.indented{
+		padding-left: 50pt;
+   		padding-right: 50pt;
+   	}
 	
 /*****	UNIDAD1
 	Azules:
@@ -51,7 +55,7 @@
 		color: rgb(80,80,80);
 	}	
 	.table-hover1-2-1 tbody tr:hover td, .table-hover1-2-1 tbody tr:hover th {
-	 	background-color: rgb(79,129,189);
+	 	background-color: rgb(255,255,255);
 	}
 
 /*****	UNIDAD2	
@@ -88,6 +92,12 @@
 	#contenedorUnidad2{
 		background-color: rgb(192,80,77);
 		border-color: rgb(192,80,77);
+	}
+	.table-hover2-4-1 tbody tr:hover td, .table-hover2-4-1 tbody tr:hover th {
+	 	background-color: rgb(255,255,255);
+	}
+	#tooltip2-4-1{
+		color: rgb(80,80,80);
 	}
 
 /*****	UNIDAD3	
