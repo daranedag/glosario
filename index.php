@@ -1573,11 +1573,80 @@
 											</div>
 											<div id="collapse3-1-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.1.1
+													<table class="table table-hover2-4-1">														
+														<th style="text-align: center;">
+															Caracter
+														</th>
+														<th style="text-align: center;">
+															Descripción
+														</th>														
+														<tbody>
+															<tr>
+																<td style="text-align: center;">
+																	\n
+																</td>
+																<td style="text-align: center;">
+																	"Linefeed" o Salto de linea, se utiliza para escribir una cadena en lineas diferentes
+																</td>
+															</tr>
+																<td style="text-align: center;">
+																	\t
+																</td>
+																<td style="text-align: center;">
+																	"Tab", se utiliza para separar una cadena, una cantidad de 4 u 8 espacios
+																</td>
+															</tr>
+																<td style="text-align: center;">
+																	\b
+																</td>
+																<td style="text-align: center;">
+																	"Backspace" o Retroceso, se utiliza para retroceder el cursor un caracter y sobreescribir el contenido
+																</td>
+															</tr>
+																<td style="text-align: center;">
+																	\r
+																</td>
+																<td style="text-align: center;">
+																	"Carriage Return", se utiliza para dejar el cursor al principio de la misma linea que se está escribiendo (sobreescribe)
+																</td>
+															</tr>
+																<td style="text-align: center;">
+																	\f
+																</td>
+																<td style="text-align: center;">
+																	"Form Feed", se utiliza para forzar la impresión en una pagina nueva
+																</td>
+															</tr>
+															</tr>
+																<td style="text-align: center;">
+																	\'
+																</td>
+																<td style="text-align: center;">
+																	Se utiliza para mostrar una comilla simple en la cadena
+																</td>
+															</tr>
+															</tr>
+																<td style="text-align: center;">
+																	\"
+																</td>
+																<td style="text-align: center;">
+																	Se utiliza para mostrar una comilla en la cadena
+																</td>
+															</tr>
+															</tr>
+																<td style="text-align: center;">
+																	\\
+																</td>
+																<td style="text-align: center;">
+																	Se utiliza para mostrar un backslash simple en la cadena
+																</td>
+															</tr>
+														</tbody>
+													</table>
 												</div>
 											</div>
 										</div>
-
+										<!--
 										<div class="panel panel-default3-1-1">
 											<div class="panel-heading">
 												<h4 class="panel-title">
@@ -1592,6 +1661,7 @@
 												</div>
 											</div>
 										</div>
+										-->
 
 										<div class="panel panel-default3-1-1">
 											<div class="panel-heading">
@@ -1603,7 +1673,30 @@
 											</div>
 											<div id="collapse3-1-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.1.3
+													<pre name="code"  class="Java:nocontrols">
+														public class ejemploCaracteresEspeciales{
+															public static void main(String args[]){
+																String frase = "hola a todos los amigos";
+																String frase2 = "y a los que no lo son, también";
+																//Uso de \n
+																System.out.println(frase +"\n"+frase2);
+																//Uso de \b
+																System.out.println(frase +"\b\b\b"+frase2);
+																//uso de \t
+																System.out.println(frase +"\t\t"+frase2);
+																//Uso de \r
+																System.out.println(frase +"\r"+frase2);
+																//Para agregar comillas "..."
+																System.out.println("\""+frase+"\"");
+																//Para agregar comillas simples '...'
+																System.out.println("\'"+frase2+"\'");
+																//Para agregar backslash \...\
+																System.out.println("\\"+frase+"\\");
+																//Uso de \f
+																System.out.println(frase +"\f\f"+frase2);
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -1632,7 +1725,28 @@
 											</div>
 											<div id="collapse3-2-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.2.1
+													<p>Casteo, casting o conversión de tipos de datos es un procedimiento para transformar una variable
+													de un tipo a otro siempre y cuando haya una relación directa entre ellas.<br> Existen 2 tipos de casting: </p>
+													<p>
+														<b> Casteo Implícito </b>
+														<p class="indented">
+															Este casteo radica en que no se necesita escribir código para que se lleve a cabo.
+															Ocurre cuanso se coloca un valor pequeño dentro de un contenedor grande.															
+														</p>
+														<b> Casteo Explícito </b>
+														<p class="indented">
+															Se produce cuando se se coloca un valor grande en un contenedor pequeño.
+															Es posible que ocurra una perdida de datos y deben realizarse a través de codigo fuente y como dice su nombre, 
+															de forma explícita.															
+														</p>
+													</p>
+													<p>
+														Para clarificar aún más la conversión de tipos de datos entre sí, se deja la siguiente imagen
+														<div align="center">
+															<img src="img/casting.png" class="img-responsive" alt="Responsive image">
+														</div>
+													</p>
+
 												</div>
 											</div>
 										</div>
@@ -1647,7 +1761,19 @@
 											</div>
 											<div id="collapse3-2-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.2.2
+													<p>
+														<b> Casteo Implícito </b>
+														<p class="indented">
+															int N = 8;   //int tiene 4 bytes <br>
+															long M = N;   //long tiene 8 bytes
+														</p>
+														<b> Casteo Explícito </b><														<p class="indented">
+															double A = 64.2; // 8 bytes <br>
+															float B = A;  // Error... hay perdida de precisión <br>
+															Para solucionarlo: <br>
+															float B = (float)A; //De esta forma un dato de 8 bytes encaja en uno de 4
+														</p>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -2736,3 +2862,8 @@
     <script language="javascript" src="js/shBrushJava.js"></script>
     <script language="javascript" src="js/glosario.js"></script>
 </body>
+<footer>
+	<div align="center">
+		<img src="img/creative-commons.png" class="img-responsive" alt="Responsive image">
+	</div>
+</footer>
