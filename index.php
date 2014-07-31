@@ -2314,7 +2314,22 @@
 											</div>
 											<div id="collapse4-1-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.1.1
+													<p>
+														Hasta el momento, hemos trabajado con varios tipos de datos: byte, short, int, long, float, double, char y boolean (que son 
+														los <i>tipos de datos primitivos</i>); además de
+														utilizar las clases String, Integer, Character, Random y Scanner.
+														Para introducir el concepto de arreglos de datos, debemos comprender que trabajaremos con conjuntos de datos, es decir, con
+														una estructura que me permite guardar muchos elementos de un mismo tipo.
+													</p>
+													<p>	
+														<div align="center">
+															<img src="img/datos-estructurados.png" class="img-responsive" alt="Responsive image">
+														</div>
+													</p>
+													<p>
+														Estos tipos estructurados de datos se llaman 'Arreglos', y se pueden realizar diversas operaciones sobre ellos, además de que
+														prestan una gran utilidad en variadas situaciones.
+													</p>
 												</div>
 											</div>
 										</div>
@@ -2329,7 +2344,42 @@
 											</div>
 											<div id="collapse4-1-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.1.2
+													<p>
+														Para declarar un arreglo, lo primero que debo tener claro, es de qué tipo de dato será mi arreglo, ya que sólo se me permite guardar datos
+														de un mismo tipo.
+														Si quiero un arreglo de enteros lo declararé de la siguiente forma: int [] miArregloDeInt;<br>
+														Si fuera de booleanos: boolean[] nombreArreglo;<br>
+														Y dado que los arreglos para utilizarse con datos, se les asigna una cantidad fija de memoria, debemos conocer cuántos datos tendrá como máximo nuestro arreglo.
+														Al saberlo, creamos el espacio en memoria con el comando <i>new</i><br>
+														Para el caso del arreglo de enteros con 7 "casillas" se utuliza así:<br>
+														miArregloDeInt = new int [7];<br>
+														Si fuera el caso de los booleanos con 4 elementos:<br>
+														nombreArreglo = new boolean[4];<br>
+														Si conocemos todo lo necesario, podemos declarar y asignar valores en una sola linea:<br>
+														int [] miArreglo = new int[7];<br>
+														Con esto, tenemos una estructura en memoria representada en la siguiente imagen
+													</p>
+													<p>	
+														<div align="center">
+															<img src="img/datos-estructurados2.png" class="img-responsive" alt="Responsive image">
+														</div>
+													</p>
+													<p>
+														Como se ve, está la estructura pero está vacía...y corresponde ingresarle datos:<br>
+														miArreglo[0] = 17;<br>
+														miArreglo[1] = 73;<br>
+														miArreglo[2] = 32;<br>
+														miArreglo[3] = 26;<br>
+														miArreglo[4] = 64;<br>
+														miArreglo[5] = 48;<br>
+														miArreglo[6] = 87;
+													</p>
+													<p>	
+														En color verde se muestran las posiciones del arreglo
+														<div align="center">
+															<img src="img/datos-estructurados3.png" class="img-responsive" alt="Responsive image">
+														</div>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -2344,7 +2394,29 @@
 											</div>
 											<div id="collapse4-1-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.1.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.*;
+														public class ejemploDatosEstructurados{
+															public static void main(String args[]){
+																Random aleatorio = new Random();
+																Scanner teclado = new Scanner(System.in);
+																System.out.print("Ingrese cantidad de elementos: ");
+																int n = teclado.nextInt();
+																int[] Arr = new int[n];  //Declaracion y asignacion de memoria del arreglo
+
+																for(int i=0; i < n; i++){
+																	Arr[i] = aleatorio.nextInt(50);  //Se llena el arreglo con numeros aleatorios entre 0 y 50
+																}
+
+																//Se muestra el arreglo
+																System.out.println("El arreglo generado es: ");
+																for(int i=0; i < n; i++){
+																	System.out.print(Arr[i]);
+																	System.out.print("\t");			
+																}
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
