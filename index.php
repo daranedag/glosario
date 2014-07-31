@@ -1825,13 +1825,29 @@
 											<div class="panel-heading">
 												<h4 class="panel-title">
 													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-1">
-														<b> Descripción </b>
+														<b> length() </b>
 													</a>
 												</h4>
 											</div>
-											<div id="collapse3-3-1" class="panel-collapse collapse in">
+											<div id="collapse3-3-1" class="panel-collapse collapse">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.3.1
+													<p>
+														Retorna la cantidad de caracteres que tiene la cadena
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">
+															import java.util.*;
+															public class ejemploLength{
+																public static void main(String args[]){
+																	Scanner teclado = new Scanner(System.in);
+																	System.out.print("Ingrese una frase: ");
+																	String ingreso = teclado.nextLine();
+																	int largo = ingreso.length();
+																	System.out.println("El texto ingresado tiene: "+largo+" caracteres");
+																}
+															}
+														</pre>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -1840,13 +1856,32 @@
 											<div class="panel-heading">
 												<h4 class="panel-title">
 													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-2">
-														<b> Uso </b>
+														<b> equals(Objeto) </b>
 													</a>
 												</h4>
 											</div>
-											<div id="collapse3-3-2" class="panel-collapse collapse in">
+											<div id="collapse3-3-2" class="panel-collapse collapse">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.3.2
+													<p>
+														Compara esta cadena con el objeto especificado. El resultado es verdadero si y solo si el argumento
+														no es nulo y es una cadena que representa la misma secuencia de caracteres que esta cadena.
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">
+															public class ejemploEquals{
+																public static void main(String args[]){
+																	String cadena1 = "hola";
+																	String cadena2 = "hOlA";
+																	if(cadena1.equals(cadena2)){
+																		System.out.println("Las cadenas son iguales");
+																	}
+																	else{
+																		System.out.println("Las cadenas NO son iguales");
+																	}
+																}
+															}
+														</pre>
+													</p>	
 												</div>
 											</div>
 										</div>
@@ -1855,13 +1890,255 @@
 											<div class="panel-heading">
 												<h4 class="panel-title">
 													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-3">
-														<b> Ejemplo </b>
+														<b> equalsIgnoreCase(cadena) </b>
 													</a>
 												</h4>
 											</div>
-											<div id="collapse3-3-3" class="panel-collapse collapse in">
+											<div id="collapse3-3-3" class="panel-collapse collapse">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.3.3
+													<p>
+														Compara una cadena con otra sin considerar mayusculas o minusculas.
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">														
+															public class ejemploEqualsIgnoreCase{
+																public static void main(String args[]){
+																	String cadena1 = "hola";
+																	String cadena2 = "hOlA";
+																	if(cadena1.equalsIgnoreCase(cadena2)){
+																		System.out.println("Las cadenas dicen lo mismo");
+																	}
+																	else{
+																		System.out.println("Las cadenas NO dicen lo mismo");
+																	}
+																}
+															}
+														</pre>
+														Se sugiere cambiar los valores de cadena1 o cadena2 y probar un caso en el que no digan lo mismo
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default3-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-4">
+														<b> charAt(posicion) </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse3-3-4" class="panel-collapse collapse">
+												<div class="panel-body contenido3-1-1-1">
+													<p>
+														Retorna el caracter de la cadena que se encuentra en la posición indicada.
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">														
+															import java.util.*;
+															public class ejemploCharAt{
+																public static void main(String args[]){
+																	Scanner teclado = new Scanner(System.in);
+																	Random aleatorio = new Random();
+																	System.out.print("Ingrese una frase: ");
+																	String ingreso = teclado.nextLine();
+																	int largo = ingreso.length();
+																	int posicion = aleatorio.nextInt(largo);
+																	char oculto = ingreso.charAt(posicion);
+																	System.out.println("En la frase ingresada, el caracter: \'"+oculto+"\' se encontraba en la posicion:"+posicion);
+																}
+															}
+														</pre>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default3-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-5">
+														<b> indexOf(caracter) </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse3-3-5" class="panel-collapse collapse">
+												<div class="panel-body contenido3-1-1-1">
+													<p>
+														Retorna la primera ocurrencia del caracter dado como argumento, si el caracter no se encuentra en la cadena, el valor retornado es -1.
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">														
+															import java.util.*;
+															public class ejemploIndexOf{
+																public static void main(String args[]){
+																	Scanner teclado = new Scanner(System.in);
+																	System.out.print("Ingrese una frase: ");
+																	String ingreso = teclado.nextLine();
+																	char buscar = 'a';
+																	int encontrado = ingreso.indexOf(buscar);
+																	System.out.println("La primera ocurrencia del caracter \'"+buscar+"\' se encuentra en la posición: "+encontrado);
+																}
+															}
+														</pre>
+														Se sugiere cambiar el caracter a buscar para ver otros resultados
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default3-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-6">
+														<b> substring(posicion1, posicion2) </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse3-3-6" class="panel-collapse collapse">
+												<div class="panel-body contenido3-1-1-1">
+													<p>
+														Retorna una subcadena desde la posicion1 incluida hasta la posicion2 excluida.
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">
+															import java.util.*;
+															public class ejemploSubstring{
+																public static void main(String args[]){
+																	Scanner teclado = new Scanner(System.in);
+																	Random aleatorio = new Random();
+																	System.out.print("Ingrese una frase: ");
+																	String ingreso = teclado.nextLine();
+																	int largo = ingreso.length();		//largo de la cadena ingresada
+																	int num = aleatorio.nextInt(largo-1);	//generacion aleatoria de un numero
+																	int num2 = aleatorio.nextInt(largo-1);
+																	while (num2 < num){		//Este while es para evitar que num2 sea mayor que num
+																		num2= aleatorio.nextInt(largo-1);
+																	}
+																	String nuevo = ingreso.substring(num, num2);	//uso de substring con los numeros generados
+																	System.out.println("La frase ingresada fue: "+ingreso);
+																	System.out.println("La frase cortada aleatoriamente fue: "+ nuevo);
+																}
+															}
+														</pre>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default3-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-7">
+														<b> lastIndexOf(caracter) </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse3-3-7" class="panel-collapse collapse">
+												<div class="panel-body contenido3-1-1-1">
+													<p>
+														Retorna la posición de la última ocurrencia en la cadena del caracter dado.
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">
+															import java.util.*;
+															public class ejemploLastIndexOf{
+																public static void main(String args[]){
+																	Scanner teclado = new Scanner(System.in);
+																	System.out.print("Ingrese una frase: ");
+																	String ingreso = teclado.nextLine();
+																	char buscar = 'a';
+																	int encontrado = ingreso.lastIndexOf(buscar);
+																	System.out.println("La ultima ocurrencia del caracter \'"+buscar+"\' se encuentra en la posición: "+encontrado);
+																}
+															}
+														</pre>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default3-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-8">
+														<b> trim() </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse3-3-8" class="panel-collapse collapse">
+												<div class="panel-body contenido3-1-1-1">
+													<p>
+														Retorna una copia de la cadena sin los espacios en blanco al principio y al final de la cadena.
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">
+															public class ejemploTrim{
+																public static void main(String args[]){
+																	String frase = "        esta es una frase con muchos espacios en sus extremos             ";
+																	String nueva = frase.trim();
+																	System.out.println("Primera frase: "+frase);
+																	System.out.println("Nueva frase: "+nueva+"\n pero ahora ya no tiene esos espacios porque usamos trim");
+																}
+															}
+														</pre>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default3-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-9">
+														<b> toLowerCase(), toUpperCase() </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse3-3-9" class="panel-collapse collapse">
+												<div class="panel-body contenido3-1-1-1">
+													<p>
+														Transforma toda la cadena ya sea a minusculas (toLowerCase()) o a mayusculas (toUpperCase()).
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">
+															public class ejemploLowerUpper{
+																public static void main(String args[]){
+																	String frase = "eSTa eS uNa FRaSe Que TieNe LaS VoCaLeS eN MiNuSCuLaS";
+																	System.out.println("Asi se ve con el metodo toLowerCase(): "+ frase.toLowerCase());
+																	System.out.println("Asi se ve con el metodo toUpperCase(): "+ frase.toUpperCase());		
+																}
+															}
+														</pre>
+													</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="panel panel-default3-1-1">
+											<div class="panel-heading">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="accordion3-3" href="#collapse3-3-10">
+														<b> concat(cadena) </b>
+													</a>
+												</h4>
+											</div>
+											<div id="collapse3-3-10" class="panel-collapse collapse">
+												<div class="panel-body contenido3-1-1-1">
+													<p>
+														Concatena la cadena especificada al final de esta cadena. Se usará en vez del '+'.
+													</p>
+													<p>
+														<pre name="code"  class="Java:nocontrols">
+															public class ejemploConcat{
+																public static void main(String args[]){
+																	String frase1 = "Esto va al principio";
+																	String frase2 = " y esto va después de lo anterior...";
+																	System.out.println(frase1.concat(frase2));
+																}
+															}
+														</pre>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -1890,11 +2167,80 @@
 											</div>
 											<div id="collapse3-4-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido3-1-1-1">
-													Contenido 3.4.1
+													<p> 
+														De la clase Integer se utilizarán los siguientes métodos:
+													</p>
+													<p>
+														<b> valueOf() </b>
+														<p class="indented">
+															Éste metodo retorna el ordinal del caracter dado como parámetro
+															Para utilizarlo, la instrucción se escribe de la siguiente forma:<br>
+																<i> Integer.valueOf(caracter); </i><br>
+														</p>
+														<p>
+															<b> Ejemplo </b>
+															<pre name="code"  class="Java:nocontrols">
+																public class ejemploValueOf{
+																	public static void main(String args[]){
+																		char f1 = '1';  //notar que el 1 aqui está como caracter
+																		int valor = Integer.valueOf(f1);  //aqui se guarda el ordinal del caracter 1
+																		System.out.println(valor);  
+																	}
+																}
+															</pre>
+														</p>
+													</p>
+
+													<p>
+														<b> parseInt() </b>
+														<p class="indented">
+															Éste metodo retorna el valor numérico de la cadena dada como parámetro
+															Para utilizarlo, la instrucción se escribe de la siguiente forma:<br>
+																<i> Integer.parseInt(cadena); </i><br>
+														</p>
+														<p>
+															<b> Ejemplo </b>
+															<pre name="code"  class="Java:nocontrols">
+																public class ejemploParseInt{
+																	public static void main(String args[]){
+																		String f1 = "123";  //notar que el 123 aqui está como cadena
+																		int valor = Integer.parseInt(f1);  //aqui se transforma esa cadena en numero si es posible
+																		System.out.println(valor); 
+																		valor++;
+																		System.out.println(valor);  
+																	}}
+															</pre>
+														</p>
+													</p>
+
+													<p>
+														<b> toString() </b>
+														<p class="indented">
+															Éste metodo retorna el valor como cadena de la clase que corresponda, ya que este método
+															existe tanto en la clase Character como en la clase Integer y se utiliza para poder usar el print y concat con los datos transformados
+															Para utilizarlo, la instrucción se escribe de la siguiente forma:<br>
+																<i> Integer.toString(numero); </i><br>
+																<i> Character.toString(caracter); </i><br>
+														</p>
+														<p>
+															<b> Ejemplo </b>
+															<pre name="code"  class="Java:nocontrols">
+																public class ejemploToString{
+																	public static void main(String args[]){
+																		int a = 2134;
+																		char b = 'D';
+																		String cadena = "Los datos son: ";
+																		cadena = cadena.concat(Integer.toString(a)).concat(" y ademas ").concat(Character.toString(b));
+																		System.out.println(cadena);
+																	}
+																}
+															</pre>
+														</p>
+													</p>
 												</div>
 											</div>
 										</div>
-
+										<!--
 										<div class="panel panel-default3-1-1">
 											<div class="panel-heading">
 												<h4 class="panel-title">
@@ -1923,7 +2269,7 @@
 													Contenido 3.4.3
 												</div>
 											</div>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
