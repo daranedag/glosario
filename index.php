@@ -9,6 +9,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/SyntaxHighlighter.css"></link>		
 	<link type="text/css" rel="stylesheet" href="css/unidades.css"></link>
+	<link rel="shortcut icon" type="image/x-icon" href="img/indice.jpg">
 </head>
 <body>
 	<!-- Acordeon Unidad 1 -->
@@ -2347,8 +2348,8 @@
 													<p>
 														Para declarar un arreglo, lo primero que debo tener claro, es de qué tipo de dato será mi arreglo, ya que sólo se me permite guardar datos
 														de un mismo tipo.
-														Si quiero un arreglo de enteros lo declararé de la siguiente forma: int [] miArregloDeInt;<br>
-														Si fuera de booleanos: boolean[] nombreArreglo;<br>
+														Si quiero un arreglo de enteros lo declararé de la siguiente forma: int [ ] miArregloDeInt;<br>
+														Si fuera de booleanos: boolean[ ] nombreArreglo;<br>
 														Y dado que los arreglos para utilizarse con datos, se les asigna una cantidad fija de memoria, debemos conocer cuántos datos tendrá como máximo nuestro arreglo.
 														Al saberlo, creamos el espacio en memoria con el comando <i>new</i><br>
 														Para el caso del arreglo de enteros con 7 "casillas" se utuliza así:<br>
@@ -2366,6 +2367,8 @@
 													</p>
 													<p>
 														Como se ve, está la estructura pero está vacía...y corresponde ingresarle datos:<br>
+													</p>
+													<p class="indented">
 														miArreglo[0] = 17;<br>
 														miArreglo[1] = 73;<br>
 														miArreglo[2] = 32;<br>
@@ -2445,7 +2448,7 @@
 											</div>
 											<div id="collapse4-2-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.2.1
+													Similarmente al metodo de la clase String (length()), para calcular el largo de un arreglo se utiliza la misma palabra pero sin paréntesis al final.
 												</div>
 											</div>
 										</div>
@@ -2460,7 +2463,11 @@
 											</div>
 											<div id="collapse4-2-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.3.2
+													<p>
+														Esta es otra forma de definir un arreglo directamente:<br>
+														int[ ] arr = {54,23,12,44,776,23,6};<br>
+														int largo = arr.length;
+													</p>
 												</div>
 											</div>
 										</div>
@@ -2475,7 +2482,30 @@
 											</div>
 											<div id="collapse4-2-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.2.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.*;
+														public class ejemploLength2{
+															public static void main(String args[]){
+																Random aleatorio = new Random();
+																Scanner teclado = new Scanner(System.in);
+																int num = aleatorio.nextInt(6);
+																int[] arr= new int[num];
+																for(int i=0; i < num; i++){
+																	System.out.print("Ingrese numero: ");
+																	arr[i] = teclado.nextInt();
+																}
+																int largo = arr.length;  //en este caso, num = largo
+																System.out.println("El arreglo resultante fue: ");
+																for(int i=0; i < largo; i++){
+																	System.out.print(arr[i]);
+																	System.out.print("\t");
+																}
+																System.out.println();
+																System.out.print("El largo del arreglo es: ");
+																System.out.println(largo);
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -2504,7 +2534,10 @@
 											</div>
 											<div id="collapse4-3-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.3.1
+													Este metodo es utilizado para copiar correctamente un arreglo en otro espacio en memoria, ya que hacer una igualdad, sólo
+													termina por referenciar al mismo espacio en memoria con nombres diferentes.
+													Copia un arreglo de la fuente indicada, comenzando desde la posición especificada, a la posición especificada del arreglo de destino.
+													Para utilizarlo es necesario importar la biblioteca lang
 												</div>
 											</div>
 										</div>
@@ -2519,7 +2552,24 @@
 											</div>
 											<div id="collapse4-3-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.3.2
+													import java.lang.*;<br>
+													System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length);<br>
+													Para usar este metodo es necesario conocer los parámetros de este:
+													<li>
+														Object src: Arreglo fuente
+													</li>
+													<li>
+														int srcPos: Posición inicial en el arreglo fuente
+													</li>
+													<li>
+														Object dest: Arreglo de destino
+													</li>
+													<li>
+														int destPos: Posición inicial en el arreglo de destino
+													</li>
+													<li>
+														int length: Número de elementos del arreglo a ser copiados
+													</li>
 												</div>
 											</div>
 										</div>
@@ -2534,7 +2584,32 @@
 											</div>
 											<div id="collapse4-3-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.3.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.lang.*;
+														public class ejemploArrayCopy{
+															public static void main(String args[]){
+																int[] arr = {54,23,657,23,67,894,2,1,234};
+																int[] otro = {9,7,5,3,1,2,6,4,6,7,5,2};
+
+																System.out.println("Arreglo antes de copiar");
+																for(int i=0; i < otro.length; i++){
+																	System.out.print(otro[i]);
+																	System.out.print("\t");			
+																}
+																//se copian 6 elementos, desde la posicion 0 de arr
+																//pero se copian desde la posicion 3 de otro
+																System.arraycopy(arr,0,otro,3,arr.length-3); 
+
+																System.out.println();
+																System.out.println("Arreglo copiado: ");
+																for(int i=0; i < otro.length; i++){
+																	System.out.print(otro[i]);
+																	System.out.print("\t");			
+																}
+																System.out.println();
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
