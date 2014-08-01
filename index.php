@@ -4,14 +4,28 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> Glosario INFO 023 </title>
+	<title> Referencia JAVA - INFO 023 </title>
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/SyntaxHighlighter.css"></link>		
 	<link type="text/css" rel="stylesheet" href="css/unidades.css"></link>
 	<link rel="shortcut icon" type="image/x-icon" href="img/indice.jpg">
 </head>
+<header></header>
 <body>
+<div>
+	<table>
+		<td id="tituloReferencia">
+			<img src="img/logo2.png" class="img-responsive" alt="Responsive image" align="center" style="height: 15%; width: 15%;"/>
+		</td>
+		<td id="tituloReferencia" align="center">
+			<h3>Especificación Java y conceptos básicos <br>INFO 023 - Programación - UACh</h3>
+		</td>
+		<td id="tituloReferencia">
+			<img src="img/logo1.png" class="img-responsive" alt="Responsive image" align="right" style="height: 35%; width: 35%;"/>
+		</td>	
+	</table>
+</div>
 	<!-- Acordeon Unidad 1 -->
 		<div class="panel-group" id="accordion1">
 			<div class="panel panel-default1">
@@ -1328,23 +1342,7 @@
 													</table>
 												</div>
 											</div>
-										</div>
-										<!--
-										<div class="panel panel-default2-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion2-1" href="#collapse2-4-3">
-														<b> Ejemplo </b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse2-4-3" class="panel-collapse collapse in">
-												<div class="panel-body contenido2-1-1-1">
-													Contenido 2.4.3
-												</div>
-											</div>
-										</div>
-										-->
+										</div>										
 									</div>
 								</div>
 							</div>
@@ -2710,7 +2708,78 @@
 											</div>
 											<div id="collapse5-1-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.1.1
+													<p>
+														La filosofía detrás de los bloques Try - Catch es la de intentar realizar un bloque de instrucciones, si alguna sale mal capturar la excepción
+														que se genere y de esa forma mostrar un mensaje menos "traumático" que una detención abrupta del programa con detalles inentendibles de por qué dejó de funcionar.
+													</p>
+													<p>
+														Como ejemplo, recordemos el famoso "pantallazo azul"
+														<div align="center">
+															<img src="img/try-catch1.png" class="img-responsive" alt="Responsive image">
+														</div>
+													</p>
+													<p>
+														A continuación se presentan las excepciones más comunes para ser capturadas en bloques catch;
+														<table class="table table-hover2-4-1">
+															<th style="text-align: center;">
+																Excepción
+															</th>															
+															<th style="text-align: center;">
+																Descripción
+															</th>															
+															<tbody>
+																<tr>
+																	<td style="text-align: center;">
+																		ArrayIndexOutOfBoundsException
+																	</td>
+																	<td style="text-align: center;">
+																		Ocurre cuando se intenta acceder a una posición de un arreglo que no existe
+																	</td>
+																</tr>
+																<tr>
+																	<td style="text-align: center;">
+																		StringIndexOutOfBoundsException
+																	</td>
+																	<td style="text-align: center;">
+																		Ocurre cuando se intenta acceder a una posición de una cadena que no existe
+																	</td>
+																</tr>
+																<tr>
+																	<td style="text-align: center;">
+																		ArithmeticException
+																	</td>
+																	<td style="text-align: center;">
+																		Se da principalmente por intentar dividir un numero entero entre 0 (ZeroDivisionError de Python)
+																	</td>
+																</tr>
+																<tr>
+																	<td style="text-align: center;">
+																		NumberFormatException
+																	</td>
+																	<td style="text-align: center;">
+																		Cuando se utilizan el método .toString() y el formato no es el adecuado
+																	</td>
+																</tr>
+																<tr>
+																	<td style="text-align: center;">
+																		IllegalArgumentException
+																	</td>
+																	<td style="text-align: center;">
+																		Cuando necesitamos un número aleatorio y al usar nextInt(n), n es negativo
+																	</td>
+																</tr>
+																<tr>
+																	<td style="text-align: center;">
+																		InputMismatchException
+																	</td>
+																	<td style="text-align: center;">
+																		Es muy común al ver que se le pide un numero al usuario y éste ingresa una letra o un caracter no numérico
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</p>
+
 												</div>
 											</div>
 										</div>
@@ -2725,7 +2794,25 @@
 											</div>
 											<div id="collapse5-1-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.1.2
+													<p>
+														El uso de los bloques try-catch es sencillo: <br>
+														try{
+														<p class="indented">
+															instruccion1;<br>
+															instruccion2;<br>
+															...<br>
+															instruccionN;
+														</p>
+														}<br>
+														catch(Excepcion e){
+														<p class="indented">
+															instruccionA;<br>
+															instruccionB;<br>
+															...<br>
+															instruccionZ;
+														</p>
+														}
+													</p>
 												</div>
 											</div>
 										</div>
@@ -2740,7 +2827,30 @@
 											</div>
 											<div id="collapse5-1-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.1.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.*;
+														import java.lang.*;
+														public class ejemploTryCatch{
+															public static void main(String args[]){
+																Random aleatorio = new Random();
+																Scanner teclado = new Scanner(System.in);
+
+																try{
+																	System.out.print("Ingrese un numero: ");
+																	int n = teclado.nextInt();
+																	int r = aleatorio.nextInt(n);
+																	System.out.print("El numero aleatoriamente generado fue: ");
+																	System.out.println(r);
+																}
+																catch(InputMismatchException e){
+																	System.out.println("Ingresó un caracter distinto a un numero... el programa finalizará");
+																}
+																catch(IllegalArgumentException e){
+																	System.out.println("Ingresó un numero negativo y por lo tanto no válido... el programa finalizará");
+																}
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -2752,7 +2862,7 @@
 							<div class="panel-heading">
 								<h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion5-2" href="#collapse5-2" class="tituloUnidad">
-										<b>Throw new Exception</b>
+										<b> throw new Exception(...) </b>
 									</a>
 								</h4>
 							</div>
@@ -2769,7 +2879,10 @@
 											</div>
 											<div id="collapse5-2-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.2.1
+													Esto se usa para lanzar excepciones de forma explicita cuando, por ejemplo, no sabemos que tipo de error se puede generar.
+													Por esto creamos una Excepción que sería "nuestra".
+													Una vez ejecutada la sentencia throw, el flujo del programa se detiene y ocurre lo que esté definido dentro de un
+													bloque catch que debe manejar la excepción generada.
 												</div>
 											</div>
 										</div>
@@ -2784,7 +2897,17 @@
 											</div>
 											<div id="collapse5-2-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.2.2
+													<p>
+														El uso del throw en sí es sencillo, pero debe ir acompañado de un try y de un catch obligatoriamente.
+														<li> throw new Exception("Texto a mostrar cuando ocurra la excepción"); </li>
+														<li> catch(Excepction ex1){ <br>
+														System.out.println(ex1.getMessage());<br>
+														}</li>
+													</p>
+													<p>
+														<i>Nota: El metodo <b>getMessage()</b> se explica en la sección siguiente</i>
+													</p>
+													
 												</div>
 											</div>
 										</div>
@@ -2799,7 +2922,33 @@
 											</div>
 											<div id="collapse5-2-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.2.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.*;
+														public class ejemploThrow{
+															public static void main(String[] args){
+																boolean sigue = true;
+																while(sigue){
+																	try{
+																		Scanner teclado = new Scanner(System.in);
+																		System.out.print("Ingresa un numero entre 2 y 9: ");
+																		int N = teclado.nextInt();
+																		if(N < 2 || N > 9){
+																			//el uso del throw aqui es para reingresar el numero si éste está fuera del rango deseado
+																			throw new Exception("Numero fuera de rango!");					
+																		}
+																		System.out.println("Su numero: "+N);
+																		sigue = false;
+																	}
+																	catch(InputMismatchException ex){
+																		System.out.println("Ingresaste algo distinto a un entero!!");
+																	}
+																	catch(Exception ex1){
+																		System.out.println(ex1.getMessage());
+																	}
+																}
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -2828,7 +2977,10 @@
 											</div>
 											<div id="collapse5-3-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.3.1
+													Returns the detail message string of this throwable.
+													Retorna el mensaje de detalle como cadena de un objeto de la clase Throwable, es decir
+													de excepciones creadas mediante un <i> new Exception(...) </i> o bien que vengan pre-definidas como las vistas
+													en la primera sección de ésta unidad.
 												</div>
 											</div>
 										</div>
@@ -2843,25 +2995,16 @@
 											</div>
 											<div id="collapse5-3-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.3.2
+													Su uso es principalmente dentro de un bloque catch: <br>
+													<li>
+														catch(Exception ex1){<br>
+															&nbsp &nbsp System.out.println(ex1.getMessage());<br>
+														}													
+													</li>
+													<i>Ver ejemplo anterior</i>
 												</div>
 											</div>
-										</div>
-
-										<div class="panel panel-default5-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion5-3" href="#collapse5-3-3">
-														<b> Ejemplo </b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse5-3-3" class="panel-collapse collapse in">
-												<div class="panel-body contenido5-1-1-1">
-													Contenido 5.3.3
-												</div>
-											</div>
-										</div>
+										</div>										
 									</div>
 								</div>
 							</div>
