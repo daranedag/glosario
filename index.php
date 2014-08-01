@@ -2638,7 +2638,16 @@
 											</div>
 											<div id="collapse4-4-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.4.1
+													<p>
+														Cuando hablamos de arreglos de más de una dimensión (como los que ya vimos anteriormente, que eran de una dimensión), nos referimos a que
+														existen arreglos que tienen 2 dimensiones (llamados <i>Matrices</i>) de 3 dimensiones y más, según sea la necesidad. (¡A más dimensiones la complejidad también crece!)
+													</p>	
+													<p>	
+														En color verde se muestran los numeros de las filas de la matriz y en azul el numero de las columnas
+														<div align="center">
+															<img src="img/bidimensional.png" class="img-responsive" alt="Responsive image">
+														</div>
+													</p>														
 												</div>
 											</div>
 										</div>
@@ -2653,7 +2662,14 @@
 											</div>
 											<div id="collapse4-4-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.4.2
+													La declaración y asignación de una matriz vacía es la siguiente:<br>
+													<b>int[][] matriz = new int[filas][columnas];</b><br>
+													Donde filas y columnas serán las dimensiones de la matriz y reservaran ese espacio en memoria<br>
+													Por otra parte, si quisieramos darle valores directos a una matriz, sería como sigue:
+													<b> int[][] otra = {{5,4,3,2},{8,3,5,3},{9,0,1,8},{2,4,5,6}}; </b> <br>
+													Para acceder a los elementos de una matriz se requieren, como ya se puede suponer, 2 índices.
+													Es decir, si quisieramos mostrar el 9 de la matriz 'otra', se debe hacer lo siguiente:<br>
+													<b> System.out.println(otra[2][0]); </b> ya que el 9 se encuentra en la fila 2 columna 0.
 												</div>
 											</div>
 										</div>
@@ -2668,7 +2684,38 @@
 											</div>
 											<div id="collapse4-4-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido4-1-1-1">
-													Contenido 4.4.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.*;
+														public class ejemploMatriz{
+															public static void main(String args[]){
+																Random aleatorio = new Random();
+																Scanner teclado = new Scanner(System.in);
+																System.out.print("Ingrese numero de filas: ");
+																int filas = teclado.nextInt();
+																System.out.print("Ingrese numero de columnas: ");
+																int columnas = teclado.nextInt();
+																
+																int matriz[][] = new int[filas][columnas];
+
+																//llenar la matriz con numeros aleatorios
+																for(int i=0; i < filas; i++){
+																	for(int j=0; j < columnas; j++){
+																		matriz[i][j] = aleatorio.nextInt(50);
+																	}
+																}
+
+																//mostrar la matriz generada (en forma de matriz)
+																System.out.println("La matriz resultante fue: ");
+																for(int i=0; i < filas; i++){
+																	for(int j=0; j < columnas; j++){
+																		System.out.print(matriz[i][j]);
+																		System.out.print("\t");
+																	}
+																	System.out.println();
+																}			
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
