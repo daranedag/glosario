@@ -108,12 +108,6 @@
 										            	Hola a todos <br>
 														Esta linea queda debajo por el println  y esta queda al lado por el uso de print
 										            </code>
-										            <!--
-										            <textarea readonly cols="100" wrap="off" style="width: 100%;">
-										            	Hola a todos
-														Esta linea queda debajo por el println  y esta queda al lado por el uso de print
-										            </textarea>
-										            -->
 												</div>
 											</div>
 										</div>
@@ -290,22 +284,6 @@
 												</div>
 											</div>
 										</div>
-									<!--
-										<div class="panel panel-default1-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion1-2" href="#collapse1-2-3">
-														<b> Ejemplo </b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse1-2-3" class="panel-collapse collapse in">
-												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.2.3
-												</div>
-											</div>
-										</div>
-									-->
 									</div>
 								</div>
 							</div>
@@ -785,37 +763,6 @@
 												</div>
 											</div>
 										</div>
-										<!--
-										<div class="panel panel-default1-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion1-4" href="#collapse1-4-2">
-														<b> Uso </b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse1-4-2" class="panel-collapse collapse in">
-												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.4.2
-												</div>
-											</div>
-										</div>
-
-										<div class="panel panel-default1-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion4-4" href="#collapse1-4-3">
-														<b> Ejemplo </b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse1-4-3" class="panel-collapse collapse in">
-												<div class="panel-body contenido1-1-1-1">
-													Contenido 1.4.3
-												</div>
-											</div>
-										</div>
-										-->
 									</div>									
 								</div>
 							</div>
@@ -2918,23 +2865,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
-						<!-- Borrar Quizá!!!
-							<div class="panel panel-default5-1">
-								<div class="panel-heading">
-									<h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion5-4" href="#collapse5-4" class="tituloUnidad">
-											Clase Math
-										</a>
-									</h4>
-								</div>
-								<div id="collapse5-4" class="panel-collapse collapse">
-									<div class="panel-body contenido5-1-1-1">
-										Contenido
-									</div>
-								</div>
-							</div> 
-						-->
+						</div>						
 					</div>
 	    		</div>
 		  	</div>
@@ -3131,22 +3062,6 @@
 								</div>
 							</div>
 						</div>
-						<!-- Borrar Quizá!!!
-						<div class="panel panel-default6-1">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion6-4" href="#collapse6-4">
-										Clase Math
-									</a>
-								</h4>
-							</div>
-							<div id="collapse6-4" class="panel-collapse collapse">
-								<div class="panel-body contenido6-1-1-1">
-									Contenido
-								</div>
-							</div>
-						</div>
-						-->
 					</div>
 	    		</div>
 		  	</div>
