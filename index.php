@@ -11,7 +11,6 @@
 	<link type="text/css" rel="stylesheet" href="css/unidades.css"></link>
 	<link rel="shortcut icon" type="image/x-icon" href="img/indice.jpg">
 </head>
-<header></header>
 <body>
 <div>
 	<table>
@@ -19,7 +18,7 @@
 			<img src="img/logo2.png" class="img-responsive" alt="Responsive image" align="center" style="height: 15%; width: 15%;"/>
 		</td>
 		<td id="tituloReferencia" align="center">
-			<h3>Especificación Java y conceptos básicos <br>INFO 023 - Programación - UACh</h3>
+			<h3>Especificación Java y conceptos básicos <br>INFO 023 - Programación</h3>
 		</td>
 		<td id="tituloReferencia">
 			<img src="img/logo1.png" class="img-responsive" alt="Responsive image" align="right" style="height: 35%; width: 35%;"/>
@@ -3049,7 +3048,9 @@
 											</div>
 											<div id="collapse6-1-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.1.1
+													Para el manejo de archivos y obviamente más funcionalidades, existe la biblioteca <i>java.io</i>, dentro de la cual utilizaremos
+													algunos métodos e instrucciones que nos ayudarán a cumplir nuestro objetivo.<br>
+													También utilizaremos <i>IOException</i> en nuestros métodos que manejen los archivos													
 												</div>
 											</div>
 										</div>
@@ -3064,22 +3065,11 @@
 											</div>
 											<div id="collapse6-1-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.1.2
-												</div>
-											</div>
-										</div>
-
-										<div class="panel panel-default6-1-1">
-											<div class="panel-heading">
-												<h4 class="panel-title">
-													<a data-toggle="collapse" data-parent="accordion6-1" href="#collapse6-1-3">
-														<b> Ejemplo </b>
-													</a>
-												</h4>
-											</div>
-											<div id="collapse6-1-3" class="panel-collapse collapse in">
-												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.1.3
+													Lo primero es importar la biblioteca:<br>
+													<li> <b> import java.io.*; </b> </li>
+													Luego corresponde utilizar la excepción necesaria en nuestros metodos:<br>
+													<li> <b> public static void leeArchivo(String ruta) throws IOException{ </b> </li>
+													Los ejemplos incluidos en las siguiente subsecciones aclararán el uso de estas instrucciones.
 												</div>
 											</div>
 										</div>
@@ -3108,7 +3098,11 @@
 											</div>
 											<div id="collapse6-2-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.2.1
+													Cuando hablamos de leer archivos, las clases File y Scanner nos brindan las herramientas necesarias para ello.
+													Con ellas creamos una instancia que nos permite hacer la lectura de archivos (para este curso, se ve lectura de archivos .txt)<br>
+													El método <i>hasNextLine()</i> busca un caracter "invisible" en el archivo que se llama <i>EOF</i> (End Of File), y mientras no llegue al final del archivo
+													puede leerse lo que haya en la linea en la que se encuentra el cursor con <i>nextLine()</i> . 
+													Una vez terminada cualquier operación con archivos, se debe cerrar con <i>close()</i> . 
 												</div>
 											</div>
 										</div>
@@ -3123,7 +3117,12 @@
 											</div>
 											<div id="collapse6-2-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.2.2
+													Las instrucciones necesarias para la lectura de un archivo son:
+													<li> <b> File documento = new File("nombreArchivo.txt"); </b> </li>
+													<li> <b> Scanner entrada = new Scanner(documento);</b></li>
+													<li> <b> while(entrada.hasNextLine()){</b></li>
+													<li> <b> entrada.nextLine();</b></li>
+													<li> <b> entrada.close()</b> </li>
 												</div>
 											</div>
 										</div>
@@ -3138,7 +3137,28 @@
 											</div>
 											<div id="collapse6-2-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.2.3
+													<p> Es necesario tener un archivo llamado "miarchivo.txt" (sin comillas) en el mismo directorio
+													donde guardará el código que se presenta más abajo para que el programa funcione sin problemas </p>
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.*;
+														import java.io.*;
+														public class ejemploLectura{
+															public static void main(String[] args) throws IOException{
+																try{
+																	File documento = new File("miarchivo.txt");
+																	Scanner entrada = new Scanner(documento);
+																	while(entrada.hasNextLine()){
+																		String linea = entrada.nextLine();
+																		System.out.println(linea);
+																	}
+																	System.out.println("Fin del archivo y del programa");			
+																}
+																catch (IOException ex){
+																	System.out.println(ex.getMessage());
+																}
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -3167,7 +3187,12 @@
 											</div>
 											<div id="collapse6-3-1" class="panel-collapse collapse in">
 												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.3.1
+													La clase PrintWriter es la que nos permite "escribir" archivos de cualquier tipo con la información
+													que queramos guardar en el disco duro de nuestro computador.<br>
+													Al igual que cuando mostramos en pantalla tenemos los metodos println y print, pero en vez de utilizarlos para mostrar
+													en pantalla, lo escribiran en un archivo.<br>
+													Por último el método close, que es necesario cerrar el flujo de datos una vez terminado para que no se produzcan errores de escritura
+													en el disco duro.
 												</div>
 											</div>
 										</div>
@@ -3182,7 +3207,7 @@
 											</div>
 											<div id="collapse6-3-2" class="panel-collapse collapse in">
 												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.3.2
+													Al igual que en la lectura de archivos, la escritura trabaja con <i>throws IOException</i>
 												</div>
 											</div>
 										</div>
@@ -3197,7 +3222,37 @@
 											</div>
 											<div id="collapse6-3-3" class="panel-collapse collapse in">
 												<div class="panel-body contenido6-1-1-1">
-													Contenido 6.3.3
+													<pre name="code"  class="Java:nocontrols">
+														import java.util.*;
+														import java.io.*;
+														public class ejemploEscritura{
+															public static void main(String args[]) throws IOException{
+																Scanner teclado = new Scanner(System.in);
+																//Pide nombre del archivo a crear
+																System.out.print("Ingrese nombre de archivo: ");
+																String nombre_arch = teclado.nextLine();
+																
+																//Se le agrega la extension
+																nombre_arch = nombre_arch.concat(".txt");
+																
+																//Se crea el archivo de salida
+																PrintWriter salida = new PrintWriter(nombre_arch);
+
+																//Se piden lineas de texto para llenar el archivo hasta que presione Enter
+																System.out.print("Ingrese texto: ");
+																String texto = teclado.nextLine();
+																while(!texto.equals("")){
+																	salida.println(texto);	
+																	System.out.print("Ingrese texto: ");
+																	texto = teclado.nextLine();
+																}
+																salida.close();
+																System.out.print("Abre el archivo ");
+																System.out.print(nombre_arch);
+																System.out.println(" para verificar su contenido!!");
+															}
+														}
+													</pre>
 												</div>
 											</div>
 										</div>
@@ -3211,7 +3266,7 @@
 		</div>
 	<!-- Fin Unidad 6 -->
 
-	<!-- Acordeon Unidad 7 -->
+	<!-- Acordeon Unidad 7 
 		<div class="panel-group" id="accordion7">
 			<div class="panel panel-default7">
 		    	<div class="panel-heading"  id="headerTituloUnidad7">
@@ -3464,7 +3519,7 @@
 	    		</div>
 		  	</div>
 		</div>
-	<!-- Fin Unidad 7 -->
+	 Fin Unidad 7 -->
 
 
 	<script src="js/jquery.js"></script>
