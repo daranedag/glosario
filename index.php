@@ -3530,6 +3530,7 @@
     <script language="javascript" src="js/glosario.js"></script>
 </body>
 <footer>
+	<div align="right"> Descarga todos los codigos <a href="codigos/codigos.zip">aqui</a> </div>
 	<div align="center">
 		<img src="img/creative-commons.png" class="img-responsive" alt="Responsive image">
 	</div>
