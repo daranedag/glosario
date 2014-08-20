@@ -266,7 +266,7 @@
 																float
 															</td>
 															<td>
-																Tipo de dato numérico con punto flotante que almacena 2 bytes de memoria (16 bits)
+																Tipo de dato numérico con punto flotante que almacena 4 bytes de memoria (32 bits)
 															</td>
 														</tr>														
 														<tr>
